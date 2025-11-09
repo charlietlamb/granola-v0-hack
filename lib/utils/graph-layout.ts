@@ -1,8 +1,8 @@
 import dagre from "dagre";
 import type { Node, Edge } from "@xyflow/react";
 
-const nodeWidth = 200;
-const nodeHeight = 120;
+const nodeWidth = 220;
+const nodeHeight = 140;
 
 export function getLayoutedElements(
   nodes: Node[],
@@ -15,8 +15,8 @@ export function getLayoutedElements(
   // Configure the graph layout
   dagreGraph.setGraph({
     rankdir: direction, // TB = top to bottom, LR = left to right
-    nodesep: 100, // Horizontal spacing between nodes in same rank
-    ranksep: 50, // Spacing between ranks (columns for LR, rows for TB)
+    nodesep: 80, // Vertical spacing between nodes in same rank (for LR layout)
+    ranksep: 250, // Horizontal spacing between ranks/columns (for LR layout)
   });
 
   // Add nodes to the graph
