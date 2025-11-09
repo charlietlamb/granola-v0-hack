@@ -10,6 +10,7 @@ import {
 import type { SerializedMeeting } from "@/app/actions/meetings";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Badge } from "@/components/ui/badge";
+import { MeetingGraph } from "@/components/meeting-graph/meeting-graph";
 
 interface ObjectiveViewProps {
   objectiveId: string;
@@ -95,6 +96,16 @@ export default function ObjectiveView({ objectiveId }: ObjectiveViewProps) {
           <span>Owner: {objective.owner.name}</span>
         </div>
       </div>
+
+      {/* Meeting Relationships Graph */}
+      {meetings && meetings.length > 0 && (
+        <div className="mb-8">
+          <h2 className="text-lg font-semibold mb-4">
+            Meeting Relationships
+          </h2>
+          <MeetingGraph meetings={meetings} />
+        </div>
+      )}
 
       {/* Meetings */}
       <div>
