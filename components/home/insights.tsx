@@ -80,27 +80,27 @@ export function InsightsSidebar({
             <SidebarContent className="px-4 py-2">
                 {/* Time in meetings */}
                 <SidebarGroup>
-                    <SidebarGroupLabel className="text-xs font-semibold text-gray-700 mb-2">
+                    <SidebarGroupLabel className="text-xs font-semibold text-muted-foreground mb-2">
                         Time in meetings — this week
                     </SidebarGroupLabel>
                     <SidebarGroupContent>
-                        <div className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                        <div className="flex items-center justify-between p-3 bg-muted rounded-lg">
                             <div>
-                                <div className="text-2xl font-semibold text-gray-900">
+                                <div className="text-2xl font-semibold text-foreground">
                                     {minutesToHours(thisWeekMinutes)}
                                 </div>
                             </div>
                             <div className="text-right">
                                 <div className={`text-sm font-medium ${
-                                    change.positive === null ? "text-gray-500" : 
-                                    change.positive ? "text-green-600" : "text-red-500"
+                                    change.positive === null ? "text-muted-foreground" :
+                                    change.positive ? "text-green-600 dark:text-green-400" : "text-red-500 dark:text-red-400"
                                 }`}>
                                     {change.positive === true ? "↑" : change.positive === false ? "↓" : "—"}{" "}
                                     {change.label}
                                 </div>
-                                <div className="text-xs text-gray-500 mt-1">
-                                    {lastWeekMinutes !== undefined ? 
-                                        `Last week ${minutesToHours(lastWeekMinutes)}` : 
+                                <div className="text-xs text-muted-foreground mt-1">
+                                    {lastWeekMinutes !== undefined ?
+                                        `Last week ${minutesToHours(lastWeekMinutes)}` :
                                         "No last-week data"
                                     }
                                 </div>
@@ -111,14 +111,14 @@ export function InsightsSidebar({
 
                 {/* Participation */}
                 <SidebarGroup>
-                    <SidebarGroupLabel className="text-xs font-semibold text-gray-700 mb-2">
+                    <SidebarGroupLabel className="text-xs font-semibold text-muted-foreground mb-2">
                         Participation
                     </SidebarGroupLabel>
                     <SidebarGroupContent>
-                        <div className="p-3 bg-gray-50 rounded-lg space-y-2">
-                            <div className="text-sm text-gray-600">
-                                {participationPercent !== undefined ? 
-                                    `${Math.round(participationPercent)}% of meeting time actively participated` : 
+                        <div className="p-3 bg-muted rounded-lg space-y-2">
+                            <div className="text-sm text-foreground">
+                                {participationPercent !== undefined ?
+                                    `${Math.round(participationPercent)}% of meeting time actively participated` :
                                     "Participation data not available"
                                 }
                             </div>
@@ -131,25 +131,25 @@ export function InsightsSidebar({
 
                 {/* Projects that moved forward */}
                 <SidebarGroup>
-                    <SidebarGroupLabel className="text-xs font-semibold text-gray-700 mb-2">
+                    <SidebarGroupLabel className="text-xs font-semibold text-muted-foreground mb-2">
                         Projects that moved forward
                     </SidebarGroupLabel>
                     <SidebarGroupContent>
-                        <div className="p-3 bg-gray-50 rounded-lg">
+                        <div className="p-3 bg-muted rounded-lg">
                             {movedProjects.length === 0 ? (
-                                <div className="text-sm text-gray-500">No tracked projects moved forward this week</div>
+                                <div className="text-sm text-muted-foreground">No tracked projects moved forward this week</div>
                             ) : (
                                 <SidebarMenu>
                                     {movedProjects.map((p) => (
                                         <SidebarMenuItem key={p.id} className="py-1">
                                             <div className="flex items-start gap-3">
-                                                <div className="w-2 h-2 mt-2 bg-green-500 rounded-sm flex-shrink-0" />
+                                                <div className="w-2 h-2 mt-2 bg-green-500 dark:bg-green-400 rounded-sm flex-shrink-0" />
                                                 <div className="min-w-0 flex-1">
-                                                    <div className="text-sm font-medium text-gray-900 truncate">
+                                                    <div className="text-sm font-medium text-foreground truncate">
                                                         {p.name}
                                                     </div>
                                                     {p.summary && (
-                                                        <div className="text-xs text-gray-500 mt-0.5">
+                                                        <div className="text-xs text-muted-foreground mt-0.5">
                                                             {p.summary}
                                                         </div>
                                                     )}
@@ -165,12 +165,12 @@ export function InsightsSidebar({
 
                 {/* Time saver */}
                 <SidebarGroup>
-                    <SidebarGroupLabel className="text-xs font-semibold text-gray-700 mb-2">
+                    <SidebarGroupLabel className="text-xs font-semibold text-muted-foreground mb-2">
                         Time saver
                     </SidebarGroupLabel>
                     <SidebarGroupContent>
-                        <div className="flex items-center justify-between p-3 bg-amber-50 rounded-lg border border-amber-200">
-                            <div className="text-sm text-amber-900">{timeSaverNote}</div>
+                        <div className="flex items-center justify-between p-3 bg-amber-50 dark:bg-amber-950 rounded-lg border border-amber-200 dark:border-amber-800">
+                            <div className="text-sm text-amber-900 dark:text-amber-100">{timeSaverNote}</div>
                             <div className="text-xl">💡</div>
                         </div>
                     </SidebarGroupContent>
@@ -178,11 +178,11 @@ export function InsightsSidebar({
 
                 {/* Objectives */}
                 <SidebarGroup>
-                    <SidebarGroupLabel className="text-xs font-semibold text-gray-700 mb-2">
+                    <SidebarGroupLabel className="text-xs font-semibold text-muted-foreground mb-2">
                         Objectives
                     </SidebarGroupLabel>
                     <SidebarGroupContent>
-                        <div className="p-3 bg-gray-50 rounded-lg">
+                        <div className="p-3 bg-muted rounded-lg">
                             {objectivesLoading ? (
                                 <div className="space-y-3">
                                     {[1, 2, 3].map((i) => (
@@ -190,16 +190,16 @@ export function InsightsSidebar({
                                     ))}
                                 </div>
                             ) : !objectives || objectives.length === 0 ? (
-                                <div className="text-sm text-gray-500">No objectives found</div>
+                                <div className="text-sm text-muted-foreground">No objectives found</div>
                             ) : (
                                 <SidebarMenu>
                                     {objectives.map((objective) => (
                                         <SidebarMenuItem key={objective.id} className="py-1">
                                             <div
-                                                className="p-2 cursor-pointer hover:bg-white hover:shadow-sm transition-all rounded-md text-sm border border-transparent hover:border-gray-200"
+                                                className="p-2 cursor-pointer hover:bg-background hover:shadow-sm transition-all rounded-md text-sm border border-transparent hover:border-border"
                                                 onClick={() => router.push(`/objective/${objective.id}`)}
                                             >
-                                                <div className="font-medium text-gray-900 text-sm">
+                                                <div className="font-medium text-foreground text-sm">
                                                     {objective.name}
                                                 </div>
                                             </div>

@@ -1,13 +1,13 @@
 import * as fs from "fs";
 import * as path from "path";
 import type {
-  Person,
-  Objective,
-  Agenda,
-  MeetingNote,
-  Takeaways,
   ActionItem,
+  Agenda,
   Meeting,
+  MeetingNote,
+  Objective,
+  Person,
+  Takeaways,
 } from "@/lib/types/meeting";
 
 // JSON data structure interfaces
@@ -123,7 +123,7 @@ function createAgendaFromTemplate(
 // Transform functions
 export function transformSeedData() {
   // Read the JSON file
-  const jsonPath = path.join(process.cwd(), "meeting-data.json");
+  const jsonPath = path.join(process.cwd(), "meeting-data-2.json");
   const jsonContent = fs.readFileSync(jsonPath, "utf-8");
   const data: JSONData = JSON.parse(jsonContent);
 
@@ -180,7 +180,9 @@ export function transformSeedData() {
   const actionItems: ActionItem[] = data.actionItems.map((ai) => {
     const assignedTo = personsMap.get(ai.assignee);
     if (!assignedTo) {
-      throw new Error(`Person not found for action item assignee: ${ai.assignee}`);
+      throw new Error(
+        `Person not found for action item assignee: ${ai.assignee}`,
+      );
     }
 
     // Map "scheduled" to "not_started" since Zod schema only supports not_started/in_progress/completed/blocked
@@ -231,9 +233,7 @@ export function transformSeedData() {
       .filter((p): p is Person => p !== undefined);
 
     if (people.length !== m.participants.length) {
-      console.warn(
-        `Warning: Some participants not found for meeting ${m.id}`,
-      );
+      console.warn(`Warning: Some participants not found for meeting ${m.id}`);
     }
 
     // Create agenda from template if available
