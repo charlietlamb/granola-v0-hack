@@ -2,6 +2,7 @@
 
 import { useQuery } from "@tanstack/react-query";
 import { format, parseISO } from "date-fns";
+import Link from "next/link";
 import {
   getObjective,
   getObjectiveMeetings,
@@ -119,9 +120,10 @@ export default function ObjectiveView({ objectiveId }: ObjectiveViewProps) {
         ) : (
           <div className="space-y-2">
             {meetings.map((meeting) => (
-              <div
+              <Link
                 key={meeting.id}
-                className="flex items-center justify-between px-4 py-3 rounded-lg border border-border hover:bg-accent/50 transition-colors"
+                href={`/meetings/${meeting.id}`}
+                className="flex items-center justify-between px-4 py-3 rounded-lg border border-border hover:bg-accent/50 transition-colors cursor-pointer block"
               >
                 <div>
                   <h3 className="text-sm font-medium">{meeting.name}</h3>
@@ -133,7 +135,7 @@ export default function ObjectiveView({ objectiveId }: ObjectiveViewProps) {
                 <div className="text-xs text-muted-foreground">
                   {format(parseISO(meeting.startTime), "MMM d, yyyy HH:mm")}
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         )}

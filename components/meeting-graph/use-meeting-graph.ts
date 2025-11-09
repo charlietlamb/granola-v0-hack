@@ -9,6 +9,7 @@ import type { SerializedMeeting } from "@/app/actions/meetings";
 import { getLayoutedElements } from "@/lib/utils/graph-layout";
 
 interface MeetingNodeData extends Record<string, unknown> {
+  id: string;
   label: string;
   startTime: string;
   status: string;
@@ -23,6 +24,7 @@ function transformMeetingsToGraph(meetings: SerializedMeeting[]) {
     type: "meeting",
     position: { x: 0, y: 0 }, // Will be set by layout algorithm
     data: {
+      id: meeting.id,
       label: meeting.name,
       startTime: meeting.startTime,
       status: meeting.status,

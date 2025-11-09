@@ -1,8 +1,10 @@
 import { Handle, type NodeProps, Position } from "@xyflow/react";
 import { format, parseISO } from "date-fns";
+import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 
 interface MeetingNodeData {
+  id: string;
   label: string;
   startTime: string;
   status: string;
@@ -13,7 +15,10 @@ interface MeetingNodeData {
 export default function MeetingNode({ data }: NodeProps) {
   const meetingData = data as unknown as MeetingNodeData;
   return (
-    <div className="px-4 py-3 rounded-lg border-2 border-border bg-card shadow-md min-w-[180px] max-w-[220px]">
+    <Link
+      href={`/meetings/${meetingData.id}`}
+      className="block px-4 py-3 rounded-lg border-2 border-border bg-card shadow-md min-w-[180px] max-w-[220px] hover:border-primary transition-colors cursor-pointer"
+    >
       <Handle
         type="target"
         position={Position.Top}
@@ -60,6 +65,6 @@ export default function MeetingNode({ data }: NodeProps) {
         position={Position.Bottom}
         className="w-3 h-3 !bg-primary"
       />
-    </div>
+    </Link>
   );
 }
