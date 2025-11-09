@@ -148,8 +148,9 @@ export async function getMeetingDetail(id: string): Promise<MeetingDetail | null
     ]);
 
     // Serialize everything
+    const { agenda: _agenda, notes: _notes, takeaways: _takeaways, ...meetingData } = meeting;
     const serializedMeeting: SerializedMeeting = {
-      ...meeting,
+      ...meetingData,
       startTime: toISOString(meeting.startTime)!,
       createdAt: toISOString(meeting.createdAt)!,
       updatedAt: toISOString(meeting.updatedAt)!,
@@ -158,9 +159,6 @@ export async function getMeetingDetail(id: string): Promise<MeetingDetail | null
         createdAt: toISOString(person.createdAt)!,
         updatedAt: toISOString(person.updatedAt)!,
       })),
-      agenda: undefined,
-      notes: undefined,
-      takeaways: undefined,
     };
 
     const serializedObjective: SerializedObjective | null = objective

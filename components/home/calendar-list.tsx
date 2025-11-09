@@ -1,13 +1,22 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { format, isToday, isTomorrow, isYesterday, parseISO, subWeeks } from "date-fns";
-import { useMemo, useState } from "react";
+import {
+  format,
+  isToday,
+  isTomorrow,
+  isYesterday,
+  parseISO,
+  subWeeks,
+} from "date-fns";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
 import { getMeetings, type SerializedMeeting } from "@/app/actions/meetings";
+import { getObjectives } from "@/app/actions/objectives";
 import { Badge } from "@/components/ui/badge";
-import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
+import { Skeleton } from "@/components/ui/skeleton";
 
 // Group meetings by day
 function groupMeetingsByDay(meetings: SerializedMeeting[]) {
@@ -91,26 +100,32 @@ function MeetingsSkeleton() {
 
 export default function CalendarList() {
   const [showPastMeetings, setShowPastMeetings] = useState(false);
-  
+  const router = useRouter();
+
   const {
     data: meetings,
-    isLoading,
-    error,
+    isLoading: meetingsLoading,
+    error: meetingsError,
   } = useQuery({
     queryKey: ["meetings"],
     queryFn: getMeetings,
   });
 
+  const { data: objectives, isLoading: objectivesLoading } = useQuery({
+    queryKey: ["objectives"],
+    queryFn: getObjectives,
+  });
+
   // Filter meetings based on showPastMeetings state
   const filteredMeetings = useMemo(() => {
     if (!meetings) return [];
-    
+
     const oneWeekAgo = subWeeks(new Date(), 1);
-    
+
     if (showPastMeetings) {
       return meetings;
     }
-    
+
     // Filter out meetings older than a week
     return meetings.filter((meeting) => {
       const meetingDate = parseISO(meeting.startTime);
@@ -132,6 +147,9 @@ export default function CalendarList() {
       return meetingDate < oneWeekAgo;
     });
   }, [meetings]);
+
+  const isLoading = meetingsLoading || objectivesLoading;
+  const error = meetingsError;
 
   if (isLoading) {
     return (
@@ -167,95 +185,133 @@ export default function CalendarList() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8">
-      <div className="flex items-center justify-between mb-8">
-        <h1 className="text-xl font-semibold">Coach</h1>
-        {hasPastMeetings && (
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => setShowPastMeetings(!showPastMeetings)}
-          >
-            {showPastMeetings ? "Hide past meetings" : "Show past meetings"}
-          </Button>
+    <div className="flex min-h-screen">
+      {/* Main Content */}
+      <div className="flex-1 max-w-3xl mx-auto px-6 py-8">
+        <div className="flex items-center justify-between mb-8">
+          <h1 className="text-xl font-semibold">Coach</h1>
+          {hasPastMeetings && (
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => setShowPastMeetings(!showPastMeetings)}
+            >
+              {showPastMeetings ? "Hide past meetings" : "Show past meetings"}
+            </Button>
+          )}
+        </div>
+
+        {filteredMeetings.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-sm text-muted-foreground">
+              No meetings in the next week
+            </p>
+          </div>
+        ) : (
+          <div className="space-y-8">
+            {groupedMeetings.map(({ date, meetings }) => (
+              <div key={date} className="space-y-2">
+                {/* Day Header */}
+                <h2 className="text-xs font-medium text-muted-foreground mb-3 px-3">
+                  {formatDayHeader(date)}
+                </h2>
+
+                {/* Meetings for this day */}
+                <div className="space-y-0">
+                  {meetings.map((meeting, index) => {
+                    const startTime = parseISO(meeting.startTime);
+                    const peopleCount = meeting.people.length;
+
+                    // For 1:1s, show the other person's initials (not Riley Chen)
+                    const displayPerson =
+                      peopleCount === 2
+                        ? meeting.people.find((p) => p.name !== "Riley Chen") ||
+                          meeting.people[0]
+                        : meeting.people[0];
+
+                    return (
+                      <Link
+                        key={meeting.id}
+                        href={`/meetings/${meeting.id}`}
+                        className="group flex items-center gap-3 px-3 py-3 rounded-lg hover:bg-accent/50 transition-colors cursor-pointer border-b border-border/40 last:border-b-0 block"
+                      >
+                        {/* Avatar */}
+                        <div
+                          className={`shrink-0 w-10 h-10 rounded-full ${getPersonColor(
+                            index,
+                          )} flex items-center justify-center text-white text-sm font-medium`}
+                        >
+                          {displayPerson
+                            ? getInitials(displayPerson.name)
+                            : "M"}
+                        </div>
+
+                        {/* Meeting Info */}
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center gap-2">
+                            <h3 className="text-sm font-normal text-foreground truncate">
+                              {meeting.name}
+                            </h3>
+                          </div>
+                          <div className="flex items-center gap-2 mt-0.5">
+                            <Badge
+                              variant="secondary"
+                              className="text-xs px-2 py-0 h-5"
+                            >
+                              Notes
+                            </Badge>
+                            {peopleCount > 1 && (
+                              <span className="text-xs text-muted-foreground">
+                                {peopleCount} people
+                              </span>
+                            )}
+                            {meeting.coachScore && (
+                              <span className="text-xs text-muted-foreground">
+                                Score: {meeting.coachScore}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+
+                        {/* Time - Right aligned */}
+                        <div className="shrink-0 text-xs text-muted-foreground">
+                          {format(startTime, "dd/MM HH:mm")}
+                        </div>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
+          </div>
         )}
       </div>
 
-      {filteredMeetings.length === 0 ? (
-        <div className="text-center py-12">
-          <p className="text-sm text-muted-foreground">No meetings in the next week</p>
-        </div>
-      ) : (
-        <div className="space-y-8">
-          {groupedMeetings.map(({ date, meetings }) => (
-            <div key={date} className="space-y-2">
-              {/* Day Header */}
-              <h2 className="text-xs font-medium text-muted-foreground mb-3 px-3">
-                {formatDayHeader(date)}
-              </h2>
-
-              {/* Meetings for this day */}
-              <div className="space-y-0">
-                {meetings.map((meeting, index) => {
-                  const startTime = parseISO(meeting.startTime);
-                  const peopleCount = meeting.people.length;
-
-                  return (
-                    <Link
-                      key={meeting.id}
-                      href={`/meetings/${meeting.id}`}
-                      className="group flex items-center gap-3 px-3 py-3 rounded-lg hover:bg-accent/50 transition-colors cursor-pointer border-b border-border/40 last:border-b-0 block"
-                    >
-                      {/* Avatar */}
-                      <div
-                        className={`shrink-0 w-10 h-10 rounded-full ${getPersonColor(
-                          index,
-                        )} flex items-center justify-center text-white text-sm font-medium`}
-                      >
-                        {meeting.people[0]
-                          ? getInitials(meeting.people[0].name)
-                          : "M"}
-                      </div>
-
-                      {/* Meeting Info */}
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-2">
-                          <h3 className="text-sm font-normal text-foreground truncate">
-                            {meeting.name}
-                          </h3>
-                        </div>
-                        <div className="flex items-center gap-2 mt-0.5">
-                          <Badge
-                            variant="secondary"
-                            className="text-xs px-2 py-0 h-5"
-                          >
-                            Notes
-                          </Badge>
-                          {peopleCount > 1 && (
-                            <span className="text-xs text-muted-foreground">
-                              {peopleCount} people
-                            </span>
-                          )}
-                          {meeting.coachScore && (
-                            <span className="text-xs text-muted-foreground">
-                              Score: {meeting.coachScore}
-                            </span>
-                          )}
-                        </div>
-                      </div>
-
-                      {/* Time - Right aligned */}
-                      <div className="shrink-0 text-xs text-muted-foreground">
-                        {format(startTime, "dd/MM HH:mm")}
-                      </div>
-                    </Link>
-                  );
-                })}
+      {/* Sidebar */}
+      <aside className="w-80 border-l border-border p-6 bg-muted/20">
+        <h2 className="text-lg font-semibold mb-4">Objectives</h2>
+        {objectivesLoading ? (
+          <div className="space-y-3">
+            {[1, 2, 3].map((i) => (
+              <Skeleton key={i} className="h-24 w-full" />
+            ))}
+          </div>
+        ) : !objectives || objectives.length === 0 ? (
+          <p className="text-sm text-muted-foreground">No objectives found</p>
+        ) : (
+          <div className="space-y-2">
+            {objectives.map((objective) => (
+              <div
+                key={objective.id}
+                className="p-3 cursor-pointer hover:bg-accent/50 transition-colors rounded-md text-sm"
+                onClick={() => router.push(`/objective/${objective.id}`)}
+              >
+                {objective.name}
               </div>
-            </div>
-          ))}
-        </div>
-      )}
+            ))}
+          </div>
+        )}
+      </aside>
     </div>
   );
 }
