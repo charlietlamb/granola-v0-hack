@@ -78,7 +78,7 @@ export const meetingSchema = z.object({
   notes: meetingNoteSchema.optional(),
   takeaways: takeawaysSchema.optional(),
   actionItems: z.array(z.uuid("Invalid action item ID")).default([]),
-  coachScore: z.number().int().min(0).max(100).optional(),
+  coachScore: z.number().int().min(0).max(10).optional(),
   coachFeedback: z.string().optional(),
   previousConnectedMeetings: z.array(z.uuid("Invalid meeting ID")).default([]),
   nextConnectedMeetings: z.array(z.uuid("Invalid meeting ID")).default([]),
