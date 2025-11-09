@@ -64,13 +64,8 @@ export default function CustomEdge({
             onMouseLeave={() => setShowTooltip(false)}
           >
             <div
+              className="px-2 py-1 rounded border bg-background text-foreground border-border"
               style={{
-                background: labelBgStyle?.fill || "#ffffff",
-                opacity: labelBgStyle?.fillOpacity || 0.8,
-                padding: "2px 6px",
-                borderRadius: "4px",
-                border: "1px solid #e2e8f0",
-                color: labelStyle?.fill || "#64748b",
                 fontWeight: labelStyle?.fontWeight || 500,
                 fontSize: labelStyle?.fontSize || 10,
               }}
