@@ -35,14 +35,14 @@ export function MeetingGraph({ meetings }: MeetingGraphProps) {
   }
 
   return (
-    <div className="w-full h-[1200px] border border-border rounded-lg overflow-hidden">
+    <div className="w-full h-[calc(100vh-200px)] border border-border rounded-lg overflow-hidden">
       <ReactFlow
         nodes={nodes}
         edges={edges}
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
-        defaultViewport={{ x: 250, y: 100, zoom: 1.5 }}
+        defaultViewport={{ x: 100, y: 250, zoom: 1.0 }}
         minZoom={0.1}
         maxZoom={2}
         defaultEdgeOptions={{

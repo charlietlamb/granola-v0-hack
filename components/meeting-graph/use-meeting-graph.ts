@@ -58,7 +58,7 @@ export function useMeetingGraph(meetings: SerializedMeeting[]) {
 
   // Apply layout algorithm to position nodes
   const layoutedNodes = useMemo(
-    () => getLayoutedElements(rawNodes, rawEdges, "TB"),
+    () => getLayoutedElements(rawNodes, rawEdges, "LR"),
     [rawNodes, rawEdges],
   );
 

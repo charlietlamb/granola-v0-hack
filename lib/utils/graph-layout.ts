@@ -15,8 +15,8 @@ export function getLayoutedElements(
   // Configure the graph layout
   dagreGraph.setGraph({
     rankdir: direction, // TB = top to bottom, LR = left to right
-    nodesep: 50, // Horizontal spacing between nodes
-    ranksep: 100, // Vertical spacing between ranks
+    nodesep: 100, // Horizontal spacing between nodes in same rank
+    ranksep: 50, // Spacing between ranks (columns for LR, rows for TB)
   });
 
   // Add nodes to the graph
