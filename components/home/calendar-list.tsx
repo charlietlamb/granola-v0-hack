@@ -153,6 +153,13 @@ export default function CalendarList() {
                 const startTime = parseISO(meeting.startTime);
                 const peopleCount = meeting.people.length;
 
+                // For 1:1s, show the other person's initials (not Riley Chen)
+                const displayPerson =
+                  peopleCount === 2
+                    ? meeting.people.find((p) => p.name !== "Riley Chen") ||
+                      meeting.people[0]
+                    : meeting.people[0];
+
                 return (
                   <div
                     key={meeting.id}
@@ -164,9 +171,7 @@ export default function CalendarList() {
                         index,
                       )} flex items-center justify-center text-white text-sm font-medium`}
                     >
-                      {meeting.people[0]
-                        ? getInitials(meeting.people[0].name)
-                        : "M"}
+                      {displayPerson ? getInitials(displayPerson.name) : "M"}
                     </div>
 
                     {/* Meeting Info */}

@@ -58,8 +58,14 @@ async function seedDatabase() {
     // Seed Objectives
     console.log("\n🎯 Creating objectives...");
     for (const objective of seedObjectives) {
-      await objectiveStore.create(objective);
-      console.log(`   ✓ ${objective.name}`);
+      try {
+        await objectiveStore.create(objective);
+        console.log(`   ✓ ${objective.name}`);
+      } catch (error) {
+        console.error(`   ✗ Failed to create objective: ${objective.name}`);
+        console.error(`   Objective data:`, JSON.stringify(objective, null, 2));
+        throw error;
+      }
     }
 
     // Seed Agendas
@@ -86,15 +92,30 @@ async function seedDatabase() {
     // Seed Meetings
     console.log("\n🤝 Creating meetings...");
     for (const meeting of seedMeetings) {
-      await meetingStore.create(meeting);
-      console.log(`   ✓ ${meeting.name}`);
+      try {
+        await meetingStore.create(meeting);
+        console.log(`   ✓ ${meeting.name}`);
+      } catch (error) {
+        console.error(`   ✗ Failed to create meeting: ${meeting.name}`);
+        console.error(`   Meeting ID: ${meeting.id}`);
+        console.error(`   coachScore: ${meeting.coachScore}`);
+        console.error(`   coachFeedback: ${meeting.coachFeedback}`);
+        throw error;
+      }
     }
 
     // Seed Action Items
     console.log("\n✅ Creating action items...");
     for (const actionItem of seedActionItems) {
-      await actionItemStore.create(actionItem);
-      console.log(`   ✓ ${actionItem.item.slice(0, 50)}...`);
+      try {
+        await actionItemStore.create(actionItem);
+        console.log(`   ✓ ${actionItem.item.slice(0, 50)}...`);
+      } catch (error) {
+        console.error(`   ✗ Failed to create action item: ${actionItem.item.slice(0, 50)}`);
+        console.error(`   Action Item ID: ${actionItem.id}`);
+        console.error(`   Status: ${actionItem.status}`);
+        throw error;
+      }
     }
 
     console.log("\n✅ Database seeded successfully!\n");
