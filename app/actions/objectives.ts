@@ -21,6 +21,32 @@ function toISOString(date: Date | string): string {
   return date.toISOString();
 }
 
+export async function getObjectives(): Promise<SerializedObjective[]> {
+  try {
+    const objectives = await objectiveStore.getAll();
+
+    // Serialize dates to ISO strings for client compatibility
+    const serialized: SerializedObjective[] = objectives.map((objective) => ({
+      ...objective,
+      dueDate: objective.dueDate
+        ? toISOString(objective.dueDate)
+        : undefined,
+      createdAt: toISOString(objective.createdAt),
+      updatedAt: toISOString(objective.updatedAt),
+      owner: {
+        ...objective.owner,
+        createdAt: toISOString(objective.owner.createdAt),
+        updatedAt: toISOString(objective.owner.updatedAt),
+      },
+    }));
+
+    return serialized;
+  } catch (error) {
+    console.error("Error fetching objectives:", error);
+    throw new Error("Failed to fetch objectives");
+  }
+}
+
 export async function getObjective(
   objectiveId: string,
 ): Promise<SerializedObjective | null> {

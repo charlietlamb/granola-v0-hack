@@ -3,7 +3,12 @@
 import { useQuery } from "@tanstack/react-query";
 import { format, isToday, isTomorrow, isYesterday, parseISO } from "date-fns";
 import { useMemo } from "react";
+import { useRouter } from "next/navigation";
 import { getMeetings, type SerializedMeeting } from "@/app/actions/meetings";
+import {
+  getObjectives,
+  type SerializedObjective,
+} from "@/app/actions/objectives";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
 
@@ -88,19 +93,32 @@ function MeetingsSkeleton() {
 }
 
 export default function CalendarList() {
+  const router = useRouter();
+
   const {
     data: meetings,
-    isLoading,
-    error,
+    isLoading: meetingsLoading,
+    error: meetingsError,
   } = useQuery({
     queryKey: ["meetings"],
     queryFn: getMeetings,
+  });
+
+  const {
+    data: objectives,
+    isLoading: objectivesLoading,
+  } = useQuery({
+    queryKey: ["objectives"],
+    queryFn: getObjectives,
   });
 
   const groupedMeetings = useMemo(() => {
     if (!meetings) return [];
     return groupMeetingsByDay(meetings);
   }, [meetings]);
+
+  const isLoading = meetingsLoading || objectivesLoading;
+  const error = meetingsError;
 
   if (isLoading) {
     return (
@@ -136,82 +154,111 @@ export default function CalendarList() {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8">
-      <h1 className="text-xl font-semibold mb-8">Coach</h1>
+    <div className="flex min-h-screen">
+      {/* Main Content */}
+      <div className="flex-1 max-w-3xl mx-auto px-6 py-8">
+        <h1 className="text-xl font-semibold mb-8">Coach</h1>
 
-      <div className="space-y-8">
-        {groupedMeetings.map(({ date, meetings }) => (
-          <div key={date} className="space-y-2">
-            {/* Day Header */}
-            <h2 className="text-xs font-medium text-muted-foreground mb-3 px-3">
-              {formatDayHeader(date)}
-            </h2>
+        <div className="space-y-8">
+          {groupedMeetings.map(({ date, meetings }) => (
+            <div key={date} className="space-y-2">
+              {/* Day Header */}
+              <h2 className="text-xs font-medium text-muted-foreground mb-3 px-3">
+                {formatDayHeader(date)}
+              </h2>
 
-            {/* Meetings for this day */}
-            <div className="space-y-0">
-              {meetings.map((meeting, index) => {
-                const startTime = parseISO(meeting.startTime);
-                const peopleCount = meeting.people.length;
+              {/* Meetings for this day */}
+              <div className="space-y-0">
+                {meetings.map((meeting, index) => {
+                  const startTime = parseISO(meeting.startTime);
+                  const peopleCount = meeting.people.length;
 
-                // For 1:1s, show the other person's initials (not Riley Chen)
-                const displayPerson =
-                  peopleCount === 2
-                    ? meeting.people.find((p) => p.name !== "Riley Chen") ||
-                      meeting.people[0]
-                    : meeting.people[0];
+                  // For 1:1s, show the other person's initials (not Riley Chen)
+                  const displayPerson =
+                    peopleCount === 2
+                      ? meeting.people.find((p) => p.name !== "Riley Chen") ||
+                        meeting.people[0]
+                      : meeting.people[0];
 
-                return (
-                  <div
-                    key={meeting.id}
-                    className="group flex items-center gap-3 px-3 py-3 rounded-lg hover:bg-accent/50 transition-colors cursor-pointer border-b border-border/40 last:border-b-0"
-                  >
-                    {/* Avatar */}
+                  return (
                     <div
-                      className={`shrink-0 w-10 h-10 rounded-full ${getPersonColor(
-                        index,
-                      )} flex items-center justify-center text-white text-sm font-medium`}
+                      key={meeting.id}
+                      className="group flex items-center gap-3 px-3 py-3 rounded-lg hover:bg-accent/50 transition-colors cursor-pointer border-b border-border/40 last:border-b-0"
                     >
-                      {displayPerson ? getInitials(displayPerson.name) : "M"}
-                    </div>
-
-                    {/* Meeting Info */}
-                    <div className="flex-1 min-w-0">
-                      <div className="flex items-center gap-2">
-                        <h3 className="text-sm font-normal text-foreground truncate">
-                          {meeting.name}
-                        </h3>
+                      {/* Avatar */}
+                      <div
+                        className={`shrink-0 w-10 h-10 rounded-full ${getPersonColor(
+                          index,
+                        )} flex items-center justify-center text-white text-sm font-medium`}
+                      >
+                        {displayPerson ? getInitials(displayPerson.name) : "M"}
                       </div>
-                      <div className="flex items-center gap-2 mt-0.5">
-                        <Badge
-                          variant="secondary"
-                          className="text-xs px-2 py-0 h-5"
-                        >
-                          Notes
-                        </Badge>
-                        {peopleCount > 1 && (
-                          <span className="text-xs text-muted-foreground">
-                            {peopleCount} people
-                          </span>
-                        )}
-                        {meeting.coachScore && (
-                          <span className="text-xs text-muted-foreground">
-                            Score: {meeting.coachScore}
-                          </span>
-                        )}
+
+                      {/* Meeting Info */}
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-2">
+                          <h3 className="text-sm font-normal text-foreground truncate">
+                            {meeting.name}
+                          </h3>
+                        </div>
+                        <div className="flex items-center gap-2 mt-0.5">
+                          <Badge
+                            variant="secondary"
+                            className="text-xs px-2 py-0 h-5"
+                          >
+                            Notes
+                          </Badge>
+                          {peopleCount > 1 && (
+                            <span className="text-xs text-muted-foreground">
+                              {peopleCount} people
+                            </span>
+                          )}
+                          {meeting.coachScore && (
+                            <span className="text-xs text-muted-foreground">
+                              Score: {meeting.coachScore}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Time - Right aligned */}
+                      <div className="shrink-0 text-xs text-muted-foreground">
+                        {format(startTime, "dd/MM HH:mm")}
                       </div>
                     </div>
-
-                    {/* Time - Right aligned */}
-                    <div className="shrink-0 text-xs text-muted-foreground">
-                      {format(startTime, "dd/MM HH:mm")}
-                    </div>
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
+
+      {/* Sidebar */}
+      <aside className="w-80 border-l border-border p-6 bg-muted/20">
+        <h2 className="text-lg font-semibold mb-4">Objectives</h2>
+        {objectivesLoading ? (
+          <div className="space-y-3">
+            {[1, 2, 3].map((i) => (
+              <Skeleton key={i} className="h-24 w-full" />
+            ))}
+          </div>
+        ) : !objectives || objectives.length === 0 ? (
+          <p className="text-sm text-muted-foreground">No objectives found</p>
+        ) : (
+          <div className="space-y-2">
+            {objectives.map((objective) => (
+              <div
+                key={objective.id}
+                className="p-3 cursor-pointer hover:bg-accent/50 transition-colors rounded-md text-sm"
+                onClick={() => router.push(`/objective/${objective.id}`)}
+              >
+                {objective.name}
+              </div>
+            ))}
+          </div>
+        )}
+      </aside>
     </div>
   );
 }
