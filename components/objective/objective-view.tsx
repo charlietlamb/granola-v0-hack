@@ -77,9 +77,9 @@ export default function ObjectiveView({ objectiveId }: ObjectiveViewProps) {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-8">
+    <div>
       {/* Header */}
-      <div className="mb-8">
+      <div className="max-w-3xl mx-auto px-6 py-8 pb-4">
         <h1 className="text-2xl font-semibold mb-2">{objective.name}</h1>
         <div className="flex items-center gap-3 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
@@ -97,9 +97,9 @@ export default function ObjectiveView({ objectiveId }: ObjectiveViewProps) {
         </div>
       </div>
 
-      {/* Meeting Relationships Graph */}
+      {/* Meeting Relationships Graph - Full Width */}
       {meetings && meetings.length > 0 && (
-        <div className="mb-8">
+        <div className="px-6 mb-8">
           <h2 className="text-lg font-semibold mb-4">
             Meeting Relationships
           </h2>
@@ -108,7 +108,7 @@ export default function ObjectiveView({ objectiveId }: ObjectiveViewProps) {
       )}
 
       {/* Meetings */}
-      <div>
+      <div className="max-w-3xl mx-auto px-6 pb-8">
         <h2 className="text-lg font-semibold mb-4">
           Related Meetings ({meetings?.length || 0})
         </h2>
