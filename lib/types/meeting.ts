@@ -12,16 +12,42 @@ export const personSchema = z.object({
 // Objective schema
 export const objectiveSchema = z.object({
   id: z.uuid("Invalid objective ID"),
-  title: z.string().min(1, "Objective title is required"),
-  description: z.string().optional(),
-  progress: z.number().min(0).max(100).default(0), // percentage 0-100
+  name: z.string().min(1, "Objective name is required"),
+  dueDate: z.date().optional(),
+  meetings: z.array(z.uuid("Invalid meeting ID")).default([]),
+  knowledgeBase: z.string().optional(),
   status: z.enum(["not_started", "in_progress", "completed", "blocked"]).default("not_started"),
   priority: z.enum(["low", "medium", "high"]).default("medium"),
   owner: personSchema,
-  startDate: z.date().optional(),
-  dueDate: z.date().optional(),
   createdAt: z.date().default(() => new Date()),
   updatedAt: z.date().default(() => new Date()),
+});
+
+// Agenda schema
+export const agendaSchema = z.object({
+  id: z.uuid("Invalid agenda ID"),
+  meetingId: z.uuid("Invalid meeting ID"),
+  agenda: z.string(),
+  actionItems: z.array(z.uuid("Invalid action item ID")).default([]),
+  createdAt: z.date().default(() => new Date()),
+});
+
+// MeetingNote schema
+export const meetingNoteSchema = z.object({
+  id: z.uuid("Invalid meeting note ID"),
+  meetingId: z.uuid("Invalid meeting ID"),
+  rawTranscript: z.string(),
+  aiSummary: z.string(),
+  actionItems: z.array(z.uuid("Invalid action item ID")).default([]),
+  createdAt: z.date().default(() => new Date()),
+});
+
+// Takeaways schema
+export const takeawaysSchema = z.object({
+  id: z.uuid("Invalid takeaways ID"),
+  meetingId: z.uuid("Invalid meeting ID"),
+  content: z.string(),
+  createdAt: z.date().default(() => new Date()),
 });
 
 // Action Item schema
@@ -39,37 +65,34 @@ export const actionItemSchema = z.object({
   updatedAt: z.date().default(() => new Date()),
 });
 
-// Attendee schema (for meeting participants)
-export const attendeeSchema = z.object({
-  personId: z.uuid("Invalid person ID"),
-  status: z.enum(["accepted", "declined", "tentative", "no_response"]).default("no_response"),
-  required: z.boolean().default(true),
-});
-
 // Meeting schema
 export const meetingSchema = z.object({
   id: z.uuid("Invalid meeting ID"),
-  summary: z.string().min(1, "Meeting summary is required"),
-  description: z.string().optional(),
-  attendees: z.array(attendeeSchema).min(1, "At least one attendee is required"),
+  name: z.string().min(1, "Meeting name is required"),
+  aiSummary: z.string().optional(),
+  googleCalendarId: z.string().optional(),
   startTime: z.date(),
-  endTime: z.date(),
-  duration: z.number().positive("Duration must be positive"), // in minutes
-  notes: z.string().optional(),
+  duration: z.number().int().positive("Duration must be positive"), // in seconds
+  people: z.array(personSchema).default([]),
+  agenda: agendaSchema.optional(),
+  notes: meetingNoteSchema.optional(),
+  takeaways: takeawaysSchema.optional(),
   actionItems: z.array(z.uuid("Invalid action item ID")).default([]),
+  coachScore: z.number().int().min(0).max(100).optional(),
+  coachFeedback: z.string().optional(),
+  previousConnectedMeetings: z.array(z.uuid("Invalid meeting ID")).default([]),
+  nextConnectedMeetings: z.array(z.uuid("Invalid meeting ID")).default([]),
+  status: z.enum(["scheduled", "in_progress", "completed", "cancelled"]).default("scheduled"),
+  objectiveId: z.uuid("Invalid objective ID").optional(),
   createdAt: z.date().default(() => new Date()),
   updatedAt: z.date().default(() => new Date()),
-}).refine(
-  (data) => data.endTime > data.startTime,
-  {
-    message: "End time must be after start time",
-    path: ["endTime"],
-  }
-);
+});
 
 // Inferred TypeScript types
 export type Person = z.infer<typeof personSchema>;
 export type Objective = z.infer<typeof objectiveSchema>;
+export type Agenda = z.infer<typeof agendaSchema>;
+export type MeetingNote = z.infer<typeof meetingNoteSchema>;
+export type Takeaways = z.infer<typeof takeawaysSchema>;
 export type ActionItem = z.infer<typeof actionItemSchema>;
-export type Attendee = z.infer<typeof attendeeSchema>;
 export type Meeting = z.infer<typeof meetingSchema>;
