@@ -10,10 +10,15 @@ import {
 import "@xyflow/react/dist/style.css";
 import type { SerializedMeeting } from "@/app/actions/meetings";
 import MeetingNode from "./meeting-node";
+import CustomEdge from "./custom-edge";
 import { useMeetingGraph } from "./use-meeting-graph";
 
 const nodeTypes = {
   meeting: MeetingNode,
+};
+
+const edgeTypes = {
+  smoothstep: CustomEdge,
 };
 
 interface MeetingGraphProps {
@@ -42,6 +47,7 @@ export function MeetingGraph({ meetings }: MeetingGraphProps) {
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
+        edgeTypes={edgeTypes}
         defaultViewport={{ x: 100, y: 250, zoom: 1.0 }}
         minZoom={0.1}
         maxZoom={2}
