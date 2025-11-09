@@ -1,0 +1,4337 @@
+{
+  "persons": [
+    {
+      "id": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "name": "Riley Chen",
+      "email": "riley.chen@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "name": "Maya Singh",
+      "email": "maya.singh@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+      "name": "Tom Alvarez",
+      "email": "tom.alvarez@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+      "name": "Aisha Khan",
+      "email": "aisha.khan@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+      "name": "Marco Silva",
+      "email": "marco.silva@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "name": "Jin Park",
+      "email": "jin.park@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "07cced87-971e-4d48-86f0-8d9425f9f742",
+      "name": "Lena Orlov",
+      "email": "lena.orlov@partner.design",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "092d304f-6798-453e-a392-827d633b49c0",
+      "name": "Sophie Brooks",
+      "email": "sophie.brooks@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "bae3ff1b-e2ca-4093-ab93-67cff9f490d2",
+      "name": "Ethan Patel",
+      "email": "ethan.patel@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ef0a59e9-bb5f-4cb3-913a-5b240c95d565",
+      "name": "Venue Contact \u2014 The Foundry",
+      "email": "events@foundryspace.com",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "2768ce32-b1c4-4b37-b3d4-7d1a54e79d7d",
+      "name": "Catering \u2014 GreenFork",
+      "email": "orders@greenfork.co",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "3db1fcc1-f5b7-46e8-9fa1-4b7685e275e7",
+      "name": "Priya Rao (Enterprise Customer)",
+      "email": "priya.rao@bigco.com",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9edfeeb4-40e0-4250-9efc-50b41434bfe1",
+      "name": "Samir Haddad (Enterprise Customer)",
+      "email": "samir.haddad@banco.me",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "0563b872-c462-44dd-ab45-c1f4b7649843",
+      "name": "Nora Idris",
+      "email": "nora.idris@acme.ai",
+      "createdAt": "2025-08-31T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "name": "Run a high-performing design team",
+      "dueDate": "2025-11-30T13:00:00+00:00",
+      "priority": "high",
+      "createdAt": "2025-09-10T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "name": "Ship Windows app public beta",
+      "dueDate": "2025-12-09T13:00:00+00:00",
+      "priority": "critical",
+      "createdAt": "2025-09-10T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "name": "Host Fireside Chat with Design Engineer",
+      "dueDate": "2025-12-07T13:00:00+00:00",
+      "priority": "high",
+      "createdAt": "2025-09-10T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    }
+  ],
+  "agendas": [
+    {
+      "id": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "title": "Design Weekly Standup",
+      "items": [
+        "Quick wins and blockers",
+        "In-flight work demo (Figma links)",
+        "Cross-team requests",
+        "Quality bar reminders"
+      ],
+      "goal": "Align the team and unblock work",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "title": "1:1: Growth, feedback, priorities",
+      "items": [
+        "Wins since last 1:1",
+        "Feedback both ways",
+        "Priorities for the week",
+        "Career goals check-in"
+      ],
+      "goal": "Keep development moving, surface concerns early",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "title": "Windows App \u2014 Weekly Sync",
+      "items": [
+        "Installer & packaging status",
+        "UI parity gaps vs macOS",
+        "Win11-specific perf issues",
+        "Beta timeline and comms"
+      ],
+      "goal": "Maintain velocity toward Windows public beta",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "77523991-1847-44a6-8782-1dd77a448f27",
+      "title": "Fireside Chat Planning",
+      "items": [
+        "Venue and date lock",
+        "Speaker logistics and topic outline",
+        "Invite list + landing page",
+        "Sponsorships and budget"
+      ],
+      "goal": "Ship a high-quality event with strong attendance",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1a47041e-ad56-48a6-9ab4-b8065fc6652d",
+      "title": "Design Review \u2014 Windows Installer UX",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f2580988-9524-45e1-8771-4fa1e5eda193",
+      "title": "Incident Review \u2014 Crash on Win11 23H2",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1dc85637-190f-410a-8c25-3e7041c1b078",
+      "title": "Customer Call \u2014 Enterprise onboarding feedback",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9989fb05-26fc-402f-9f1e-7e8c3feb3ef0",
+      "title": "Customer Call \u2014 Security review Q&A",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "61bc316a-c71d-4f78-8b06-fb4745ae8166",
+      "title": "Vendor Call \u2014 The Foundry Venue walkthrough",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c60b7565-f80c-4978-8e4b-6f00c069142f",
+      "title": "Catering Menu Tasting",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "653aeb6a-5c32-49cf-bd39-9365601c043e",
+      "title": "Landing Page Review",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "05d7bc01-4114-4bff-b20d-dcf91ee5fa08",
+      "title": "Design Crit \u2014 New onboarding flow",
+      "items": ["Context", "Discussion", "Decisions", "Next steps"],
+      "goal": "Reach decision / plan",
+      "createdAt": "2025-09-25T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "e6f64248-59d6-48bf-8c7a-d1bbfef0022f",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-09-15T10:00:00+00:00",
+      "endTime": "2025-09-15T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 6,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/e6f64248-59d6-48bf-8c7a-d1bbfef0022f.txt",
+      "previousConnectedMeetings": [
+        "d91cf08d-5086-4866-834f-da77898c101e",
+        "880bbde0-5969-40d1-9168-349b1b376cde"
+      ],
+      "nextConnectedMeetings": [
+        "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3",
+        "d19467be-a49c-4534-9a4c-55f25b5962f2"
+      ],
+      "createdAt": "2025-09-14T10:00:00+00:00",
+      "updatedAt": "2025-09-15T10:30:00+00:00"
+    },
+    {
+      "id": "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-09-22T10:00:00+00:00",
+      "endTime": "2025-09-22T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 6,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f.txt",
+      "previousConnectedMeetings": [
+        "d19467be-a49c-4534-9a4c-55f25b5962f2",
+        "883a31e2-cfae-48ff-82a8-a67ee51ce4d8"
+      ],
+      "nextConnectedMeetings": [
+        "bfbd291c-b1af-4374-87a5-0b07a1d45cd3",
+        "fc6018f7-8515-4351-ba93-e0e90013adde"
+      ],
+      "createdAt": "2025-09-21T10:00:00+00:00",
+      "updatedAt": "2025-09-22T10:30:00+00:00"
+    },
+    {
+      "id": "9b918197-5314-4958-905b-f9024633e993",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-09-29T10:00:00+00:00",
+      "endTime": "2025-09-29T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 6,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/9b918197-5314-4958-905b-f9024633e993.txt",
+      "previousConnectedMeetings": [
+        "fc6018f7-8515-4351-ba93-e0e90013adde",
+        "d7532bc9-3196-490d-9902-d91d55ad1fbd"
+      ],
+      "nextConnectedMeetings": [
+        "a4ca3a67-cd47-4385-ace0-46ba90b25af5",
+        "a81db787-9913-4a36-8158-00f82f52652f"
+      ],
+      "createdAt": "2025-09-28T10:00:00+00:00",
+      "updatedAt": "2025-09-29T10:30:00+00:00"
+    },
+    {
+      "id": "621a5878-4afc-4fb3-b335-0b7af29d9265",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-10-06T10:00:00+00:00",
+      "endTime": "2025-10-06T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 7,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/621a5878-4afc-4fb3-b335-0b7af29d9265.txt",
+      "previousConnectedMeetings": [
+        "a81db787-9913-4a36-8158-00f82f52652f",
+        "8a5408d9-521e-4b95-acab-6f7dd9c69cf6"
+      ],
+      "nextConnectedMeetings": [
+        "6865b6a5-2acb-40bd-8932-d5f5a54823c0",
+        "d9d7aa63-2418-4b08-b9c3-aff049feb5a6"
+      ],
+      "createdAt": "2025-10-05T10:00:00+00:00",
+      "updatedAt": "2025-10-06T10:30:00+00:00"
+    },
+    {
+      "id": "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-10-13T10:00:00+00:00",
+      "endTime": "2025-10-13T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 6,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2.txt",
+      "previousConnectedMeetings": [
+        "9d713e0f-fbd0-4f11-ae89-8be86950d5e9",
+        "6d7d2e22-2f91-4bb2-aed3-8d64766b0783"
+      ],
+      "nextConnectedMeetings": [
+        "235b3e04-59ea-495c-9862-5d16e1d4273b",
+        "d0319a6f-5e64-4caf-a474-6248a5f65eb6"
+      ],
+      "createdAt": "2025-10-12T10:00:00+00:00",
+      "updatedAt": "2025-10-13T10:30:00+00:00"
+    },
+    {
+      "id": "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-10-20T10:00:00+00:00",
+      "endTime": "2025-10-20T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 9,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327.txt",
+      "previousConnectedMeetings": [
+        "d0319a6f-5e64-4caf-a474-6248a5f65eb6",
+        "a4dc30e5-301f-4637-a540-3003c0edaf9f"
+      ],
+      "nextConnectedMeetings": [
+        "2cc814ca-c0ae-4ab8-9e32-45507a84ae99",
+        "b1f387ee-7b10-41fb-8f02-e7b6dba4c669"
+      ],
+      "createdAt": "2025-10-19T10:00:00+00:00",
+      "updatedAt": "2025-10-20T10:30:00+00:00"
+    },
+    {
+      "id": "23513f76-bac9-46a9-9cf2-2534c276c5c3",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-10-27T10:00:00+00:00",
+      "endTime": "2025-10-27T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 7,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/23513f76-bac9-46a9-9cf2-2534c276c5c3.txt",
+      "previousConnectedMeetings": [
+        "d08854a5-dac7-4c0a-8e61-7928358f8e85",
+        "0f337940-8656-4d93-ae31-0854ca6025c4"
+      ],
+      "nextConnectedMeetings": [
+        "c6ade6e4-2de3-412e-ae04-c7f05aa2979a",
+        "a7b4705a-b190-498f-b151-1bd157f5c288"
+      ],
+      "createdAt": "2025-10-26T10:00:00+00:00",
+      "updatedAt": "2025-10-27T10:30:00+00:00"
+    },
+    {
+      "id": "17cf3f94-c061-4306-89f2-c06143dfa589",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-11-03T10:00:00+00:00",
+      "endTime": "2025-11-03T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": 7,
+      "coach_feedback": "Clear updates, timeboxed demos.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/17cf3f94-c061-4306-89f2-c06143dfa589.txt",
+      "previousConnectedMeetings": [
+        "a7b4705a-b190-498f-b151-1bd157f5c288",
+        "a0a7845f-7cae-4d6e-8ab9-1c472143755b"
+      ],
+      "nextConnectedMeetings": [
+        "7fe776fe-915b-43ac-a0ab-2ddac11fbff6",
+        "b15e1f16-0d49-40b9-b882-588b32a3a507"
+      ],
+      "createdAt": "2025-11-02T10:00:00+00:00",
+      "updatedAt": "2025-11-03T10:30:00+00:00"
+    },
+    {
+      "id": "0c7a4b19-5183-432d-b80f-b76a21b4d0d0",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-11-10T10:00:00+00:00",
+      "endTime": "2025-11-10T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/0c7a4b19-5183-432d-b80f-b76a21b4d0d0.txt",
+      "previousConnectedMeetings": [
+        "b15e1f16-0d49-40b9-b882-588b32a3a507",
+        "f7f683d8-840c-40f6-8957-2e77b8e3cb8c"
+      ],
+      "nextConnectedMeetings": [
+        "7f3580c1-aace-4980-a88f-165c9bcb3697",
+        "62d4c11e-1620-4b49-93dc-912e50c6e846"
+      ],
+      "createdAt": "2025-11-09T10:00:00+00:00",
+      "updatedAt": "2025-11-10T10:30:00+00:00"
+    },
+    {
+      "id": "33c6fb0d-33cf-41be-9a47-35521e5d541d",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-11-17T10:00:00+00:00",
+      "endTime": "2025-11-17T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/33c6fb0d-33cf-41be-9a47-35521e5d541d.txt",
+      "previousConnectedMeetings": [
+        "62d4c11e-1620-4b49-93dc-912e50c6e846",
+        "6d124b08-511c-440f-81a9-ff1387ee834f"
+      ],
+      "nextConnectedMeetings": [
+        "dde076cb-2438-4336-9427-e970f8469ae7",
+        "55f0fb90-215b-4619-8172-d221d40e3f53"
+      ],
+      "createdAt": "2025-11-16T10:00:00+00:00",
+      "updatedAt": "2025-11-17T10:30:00+00:00"
+    },
+    {
+      "id": "2e961888-d9c0-48f2-aa5b-937f5f2811d2",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-11-24T10:00:00+00:00",
+      "endTime": "2025-11-24T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/2e961888-d9c0-48f2-aa5b-937f5f2811d2.txt",
+      "previousConnectedMeetings": [
+        "55f0fb90-215b-4619-8172-d221d40e3f53",
+        "d7860413-fe45-4aed-b59d-e1019e71ca27"
+      ],
+      "nextConnectedMeetings": [
+        "f7e5f58c-ee03-432c-8e65-da59bf47448a",
+        "fea3e931-ebbb-4b60-b014-953efd4517bf"
+      ],
+      "createdAt": "2025-11-23T10:00:00+00:00",
+      "updatedAt": "2025-11-24T10:30:00+00:00"
+    },
+    {
+      "id": "ecb01e79-bfc5-4bdb-94ce-d5b2bc9396b9",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-12-01T10:00:00+00:00",
+      "endTime": "2025-12-01T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/ecb01e79-bfc5-4bdb-94ce-d5b2bc9396b9.txt",
+      "previousConnectedMeetings": [
+        "fea3e931-ebbb-4b60-b014-953efd4517bf",
+        "3c4c9992-81d0-4a35-b13d-549d7eb5b52e"
+      ],
+      "nextConnectedMeetings": [
+        "71cc1200-c7a6-4e06-8b5d-7de0a94aa501",
+        "378a13df-08e1-49c0-8df3-d81009c71f74"
+      ],
+      "createdAt": "2025-11-30T10:00:00+00:00",
+      "updatedAt": "2025-12-01T10:30:00+00:00"
+    },
+    {
+      "id": "fba3ede0-ea8e-4d29-b019-d5d697f236b4",
+      "title": "Design Weekly Standup",
+      "startTime": "2025-12-08T10:00:00+00:00",
+      "endTime": "2025-12-08T10:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "8cae8f3a-a529-4d45-a290-cf9cb2238d52",
+      "ai_summary": "Sprint snapshots, blockers, and cross-team asks.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/fba3ede0-ea8e-4d29-b019-d5d697f236b4.txt",
+      "previousConnectedMeetings": [
+        "378a13df-08e1-49c0-8df3-d81009c71f74",
+        "df7200bf-08d3-4558-a579-7d1621dd0dda"
+      ],
+      "nextConnectedMeetings": [
+        "cb42f5fc-d5b0-4d19-90d9-59a459f95a57",
+        "d7419f2a-f1b9-4637-8a9c-9aa7c46391cf"
+      ],
+      "createdAt": "2025-12-07T10:00:00+00:00",
+      "updatedAt": "2025-12-08T10:30:00+00:00"
+    },
+    {
+      "id": "9646ff75-5813-407e-8c0a-dad2981891a8",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-09-09T14:00:00+00:00",
+      "endTime": "2025-09-09T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/9646ff75-5813-407e-8c0a-dad2981891a8.txt",
+      "previousConnectedMeetings": [],
+      "nextConnectedMeetings": [
+        "d91cf08d-5086-4866-834f-da77898c101e",
+        "880bbde0-5969-40d1-9168-349b1b376cde"
+      ],
+      "createdAt": "2025-09-08T14:00:00+00:00",
+      "updatedAt": "2025-09-09T14:30:00+00:00"
+    },
+    {
+      "id": "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-09-16T14:00:00+00:00",
+      "endTime": "2025-09-16T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 8,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3.txt",
+      "previousConnectedMeetings": [
+        "880bbde0-5969-40d1-9168-349b1b376cde",
+        "e6f64248-59d6-48bf-8c7a-d1bbfef0022f"
+      ],
+      "nextConnectedMeetings": [
+        "d19467be-a49c-4534-9a4c-55f25b5962f2",
+        "883a31e2-cfae-48ff-82a8-a67ee51ce4d8"
+      ],
+      "createdAt": "2025-09-15T14:00:00+00:00",
+      "updatedAt": "2025-09-16T14:30:00+00:00"
+    },
+    {
+      "id": "bfbd291c-b1af-4374-87a5-0b07a1d45cd3",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-09-23T14:00:00+00:00",
+      "endTime": "2025-09-23T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/bfbd291c-b1af-4374-87a5-0b07a1d45cd3.txt",
+      "previousConnectedMeetings": [
+        "883a31e2-cfae-48ff-82a8-a67ee51ce4d8",
+        "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f"
+      ],
+      "nextConnectedMeetings": [
+        "fc6018f7-8515-4351-ba93-e0e90013adde",
+        "d7532bc9-3196-490d-9902-d91d55ad1fbd"
+      ],
+      "createdAt": "2025-09-22T14:00:00+00:00",
+      "updatedAt": "2025-09-23T14:30:00+00:00"
+    },
+    {
+      "id": "a4ca3a67-cd47-4385-ace0-46ba90b25af5",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-09-30T14:00:00+00:00",
+      "endTime": "2025-09-30T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 10,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/a4ca3a67-cd47-4385-ace0-46ba90b25af5.txt",
+      "previousConnectedMeetings": [
+        "d7532bc9-3196-490d-9902-d91d55ad1fbd",
+        "9b918197-5314-4958-905b-f9024633e993"
+      ],
+      "nextConnectedMeetings": [
+        "a81db787-9913-4a36-8158-00f82f52652f",
+        "8a5408d9-521e-4b95-acab-6f7dd9c69cf6"
+      ],
+      "createdAt": "2025-09-29T14:00:00+00:00",
+      "updatedAt": "2025-09-30T14:30:00+00:00"
+    },
+    {
+      "id": "d9d7aa63-2418-4b08-b9c3-aff049feb5a6",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-10-07T14:00:00+00:00",
+      "endTime": "2025-10-07T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 8,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d9d7aa63-2418-4b08-b9c3-aff049feb5a6.txt",
+      "previousConnectedMeetings": [
+        "621a5878-4afc-4fb3-b335-0b7af29d9265",
+        "6865b6a5-2acb-40bd-8932-d5f5a54823c0"
+      ],
+      "nextConnectedMeetings": [
+        "9d713e0f-fbd0-4f11-ae89-8be86950d5e9",
+        "6d7d2e22-2f91-4bb2-aed3-8d64766b0783"
+      ],
+      "createdAt": "2025-10-06T14:00:00+00:00",
+      "updatedAt": "2025-10-07T14:30:00+00:00"
+    },
+    {
+      "id": "235b3e04-59ea-495c-9862-5d16e1d4273b",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-10-14T14:00:00+00:00",
+      "endTime": "2025-10-14T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/235b3e04-59ea-495c-9862-5d16e1d4273b.txt",
+      "previousConnectedMeetings": [
+        "6d7d2e22-2f91-4bb2-aed3-8d64766b0783",
+        "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2"
+      ],
+      "nextConnectedMeetings": [
+        "d0319a6f-5e64-4caf-a474-6248a5f65eb6",
+        "a4dc30e5-301f-4637-a540-3003c0edaf9f"
+      ],
+      "createdAt": "2025-10-13T14:00:00+00:00",
+      "updatedAt": "2025-10-14T14:30:00+00:00"
+    },
+    {
+      "id": "2cc814ca-c0ae-4ab8-9e32-45507a84ae99",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-10-21T14:00:00+00:00",
+      "endTime": "2025-10-21T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/2cc814ca-c0ae-4ab8-9e32-45507a84ae99.txt",
+      "previousConnectedMeetings": [
+        "a4dc30e5-301f-4637-a540-3003c0edaf9f",
+        "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327"
+      ],
+      "nextConnectedMeetings": [
+        "b1f387ee-7b10-41fb-8f02-e7b6dba4c669",
+        "d08854a5-dac7-4c0a-8e61-7928358f8e85"
+      ],
+      "createdAt": "2025-10-20T14:00:00+00:00",
+      "updatedAt": "2025-10-21T14:30:00+00:00"
+    },
+    {
+      "id": "c6ade6e4-2de3-412e-ae04-c7f05aa2979a",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-10-28T14:00:00+00:00",
+      "endTime": "2025-10-28T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 8,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/c6ade6e4-2de3-412e-ae04-c7f05aa2979a.txt",
+      "previousConnectedMeetings": [
+        "0f337940-8656-4d93-ae31-0854ca6025c4",
+        "23513f76-bac9-46a9-9cf2-2534c276c5c3"
+      ],
+      "nextConnectedMeetings": [
+        "a7b4705a-b190-498f-b151-1bd157f5c288",
+        "a0a7845f-7cae-4d6e-8ab9-1c472143755b"
+      ],
+      "createdAt": "2025-10-27T14:00:00+00:00",
+      "updatedAt": "2025-10-28T14:30:00+00:00"
+    },
+    {
+      "id": "7fe776fe-915b-43ac-a0ab-2ddac11fbff6",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-11-04T14:00:00+00:00",
+      "endTime": "2025-11-04T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/7fe776fe-915b-43ac-a0ab-2ddac11fbff6.txt",
+      "previousConnectedMeetings": [
+        "a0a7845f-7cae-4d6e-8ab9-1c472143755b",
+        "17cf3f94-c061-4306-89f2-c06143dfa589"
+      ],
+      "nextConnectedMeetings": [
+        "b15e1f16-0d49-40b9-b882-588b32a3a507",
+        "f7f683d8-840c-40f6-8957-2e77b8e3cb8c"
+      ],
+      "createdAt": "2025-11-03T14:00:00+00:00",
+      "updatedAt": "2025-11-04T14:30:00+00:00"
+    },
+    {
+      "id": "7f3580c1-aace-4980-a88f-165c9bcb3697",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-11-11T14:00:00+00:00",
+      "endTime": "2025-11-11T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/7f3580c1-aace-4980-a88f-165c9bcb3697.txt",
+      "previousConnectedMeetings": [
+        "f7f683d8-840c-40f6-8957-2e77b8e3cb8c",
+        "0c7a4b19-5183-432d-b80f-b76a21b4d0d0"
+      ],
+      "nextConnectedMeetings": [
+        "62d4c11e-1620-4b49-93dc-912e50c6e846",
+        "6d124b08-511c-440f-81a9-ff1387ee834f"
+      ],
+      "createdAt": "2025-11-10T14:00:00+00:00",
+      "updatedAt": "2025-11-11T14:30:00+00:00"
+    },
+    {
+      "id": "dde076cb-2438-4336-9427-e970f8469ae7",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-11-18T14:00:00+00:00",
+      "endTime": "2025-11-18T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/dde076cb-2438-4336-9427-e970f8469ae7.txt",
+      "previousConnectedMeetings": [
+        "6d124b08-511c-440f-81a9-ff1387ee834f",
+        "33c6fb0d-33cf-41be-9a47-35521e5d541d"
+      ],
+      "nextConnectedMeetings": [
+        "55f0fb90-215b-4619-8172-d221d40e3f53",
+        "d7860413-fe45-4aed-b59d-e1019e71ca27"
+      ],
+      "createdAt": "2025-11-17T14:00:00+00:00",
+      "updatedAt": "2025-11-18T14:30:00+00:00"
+    },
+    {
+      "id": "f7e5f58c-ee03-432c-8e65-da59bf47448a",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-11-25T14:00:00+00:00",
+      "endTime": "2025-11-25T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/f7e5f58c-ee03-432c-8e65-da59bf47448a.txt",
+      "previousConnectedMeetings": [
+        "d7860413-fe45-4aed-b59d-e1019e71ca27",
+        "2e961888-d9c0-48f2-aa5b-937f5f2811d2"
+      ],
+      "nextConnectedMeetings": [
+        "fea3e931-ebbb-4b60-b014-953efd4517bf",
+        "3c4c9992-81d0-4a35-b13d-549d7eb5b52e"
+      ],
+      "createdAt": "2025-11-24T14:00:00+00:00",
+      "updatedAt": "2025-11-25T14:30:00+00:00"
+    },
+    {
+      "id": "71cc1200-c7a6-4e06-8b5d-7de0a94aa501",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-12-02T14:00:00+00:00",
+      "endTime": "2025-12-02T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/71cc1200-c7a6-4e06-8b5d-7de0a94aa501.txt",
+      "previousConnectedMeetings": [
+        "3c4c9992-81d0-4a35-b13d-549d7eb5b52e",
+        "ecb01e79-bfc5-4bdb-94ce-d5b2bc9396b9"
+      ],
+      "nextConnectedMeetings": [
+        "378a13df-08e1-49c0-8df3-d81009c71f74",
+        "df7200bf-08d3-4558-a579-7d1621dd0dda"
+      ],
+      "createdAt": "2025-12-01T14:00:00+00:00",
+      "updatedAt": "2025-12-02T14:30:00+00:00"
+    },
+    {
+      "id": "cb42f5fc-d5b0-4d19-90d9-59a459f95a57",
+      "title": "1:1 with Aisha",
+      "startTime": "2025-12-09T14:00:00+00:00",
+      "endTime": "2025-12-09T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/cb42f5fc-d5b0-4d19-90d9-59a459f95a57.txt",
+      "previousConnectedMeetings": [
+        "df7200bf-08d3-4558-a579-7d1621dd0dda",
+        "fba3ede0-ea8e-4d29-b019-d5d697f236b4"
+      ],
+      "nextConnectedMeetings": [
+        "d7419f2a-f1b9-4637-8a9c-9aa7c46391cf",
+        "6cc40769-b43d-4726-8037-4328575d172d"
+      ],
+      "createdAt": "2025-12-08T14:00:00+00:00",
+      "updatedAt": "2025-12-09T14:30:00+00:00"
+    },
+    {
+      "id": "d91cf08d-5086-4866-834f-da77898c101e",
+      "title": "1:1 with Marco",
+      "startTime": "2025-09-10T14:00:00+00:00",
+      "endTime": "2025-09-10T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d91cf08d-5086-4866-834f-da77898c101e.txt",
+      "previousConnectedMeetings": ["9646ff75-5813-407e-8c0a-dad2981891a8"],
+      "nextConnectedMeetings": [
+        "880bbde0-5969-40d1-9168-349b1b376cde",
+        "e6f64248-59d6-48bf-8c7a-d1bbfef0022f"
+      ],
+      "createdAt": "2025-09-09T14:00:00+00:00",
+      "updatedAt": "2025-09-10T14:30:00+00:00"
+    },
+    {
+      "id": "d19467be-a49c-4534-9a4c-55f25b5962f2",
+      "title": "1:1 with Marco",
+      "startTime": "2025-09-17T14:00:00+00:00",
+      "endTime": "2025-09-17T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 8,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d19467be-a49c-4534-9a4c-55f25b5962f2.txt",
+      "previousConnectedMeetings": [
+        "e6f64248-59d6-48bf-8c7a-d1bbfef0022f",
+        "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3"
+      ],
+      "nextConnectedMeetings": [
+        "883a31e2-cfae-48ff-82a8-a67ee51ce4d8",
+        "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f"
+      ],
+      "createdAt": "2025-09-16T14:00:00+00:00",
+      "updatedAt": "2025-09-17T14:30:00+00:00"
+    },
+    {
+      "id": "fc6018f7-8515-4351-ba93-e0e90013adde",
+      "title": "1:1 with Marco",
+      "startTime": "2025-09-24T14:00:00+00:00",
+      "endTime": "2025-09-24T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 8,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/fc6018f7-8515-4351-ba93-e0e90013adde.txt",
+      "previousConnectedMeetings": [
+        "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f",
+        "bfbd291c-b1af-4374-87a5-0b07a1d45cd3"
+      ],
+      "nextConnectedMeetings": [
+        "d7532bc9-3196-490d-9902-d91d55ad1fbd",
+        "9b918197-5314-4958-905b-f9024633e993"
+      ],
+      "createdAt": "2025-09-23T14:00:00+00:00",
+      "updatedAt": "2025-09-24T14:30:00+00:00"
+    },
+    {
+      "id": "a81db787-9913-4a36-8158-00f82f52652f",
+      "title": "1:1 with Marco",
+      "startTime": "2025-10-01T14:00:00+00:00",
+      "endTime": "2025-10-01T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/a81db787-9913-4a36-8158-00f82f52652f.txt",
+      "previousConnectedMeetings": [
+        "9b918197-5314-4958-905b-f9024633e993",
+        "a4ca3a67-cd47-4385-ace0-46ba90b25af5"
+      ],
+      "nextConnectedMeetings": [
+        "8a5408d9-521e-4b95-acab-6f7dd9c69cf6",
+        "621a5878-4afc-4fb3-b335-0b7af29d9265"
+      ],
+      "createdAt": "2025-09-30T14:00:00+00:00",
+      "updatedAt": "2025-10-01T14:30:00+00:00"
+    },
+    {
+      "id": "9d713e0f-fbd0-4f11-ae89-8be86950d5e9",
+      "title": "1:1 with Marco",
+      "startTime": "2025-10-08T14:00:00+00:00",
+      "endTime": "2025-10-08T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 10,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/9d713e0f-fbd0-4f11-ae89-8be86950d5e9.txt",
+      "previousConnectedMeetings": [
+        "6865b6a5-2acb-40bd-8932-d5f5a54823c0",
+        "d9d7aa63-2418-4b08-b9c3-aff049feb5a6"
+      ],
+      "nextConnectedMeetings": [
+        "6d7d2e22-2f91-4bb2-aed3-8d64766b0783",
+        "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2"
+      ],
+      "createdAt": "2025-10-07T14:00:00+00:00",
+      "updatedAt": "2025-10-08T14:30:00+00:00"
+    },
+    {
+      "id": "d0319a6f-5e64-4caf-a474-6248a5f65eb6",
+      "title": "1:1 with Marco",
+      "startTime": "2025-10-15T14:00:00+00:00",
+      "endTime": "2025-10-15T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d0319a6f-5e64-4caf-a474-6248a5f65eb6.txt",
+      "previousConnectedMeetings": [
+        "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2",
+        "235b3e04-59ea-495c-9862-5d16e1d4273b"
+      ],
+      "nextConnectedMeetings": [
+        "a4dc30e5-301f-4637-a540-3003c0edaf9f",
+        "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327"
+      ],
+      "createdAt": "2025-10-14T14:00:00+00:00",
+      "updatedAt": "2025-10-15T14:30:00+00:00"
+    },
+    {
+      "id": "b1f387ee-7b10-41fb-8f02-e7b6dba4c669",
+      "title": "1:1 with Marco",
+      "startTime": "2025-10-22T14:00:00+00:00",
+      "endTime": "2025-10-22T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/b1f387ee-7b10-41fb-8f02-e7b6dba4c669.txt",
+      "previousConnectedMeetings": [
+        "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327",
+        "2cc814ca-c0ae-4ab8-9e32-45507a84ae99"
+      ],
+      "nextConnectedMeetings": [
+        "d08854a5-dac7-4c0a-8e61-7928358f8e85",
+        "0f337940-8656-4d93-ae31-0854ca6025c4"
+      ],
+      "createdAt": "2025-10-21T14:00:00+00:00",
+      "updatedAt": "2025-10-22T14:30:00+00:00"
+    },
+    {
+      "id": "a7b4705a-b190-498f-b151-1bd157f5c288",
+      "title": "1:1 with Marco",
+      "startTime": "2025-10-29T14:00:00+00:00",
+      "endTime": "2025-10-29T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/a7b4705a-b190-498f-b151-1bd157f5c288.txt",
+      "previousConnectedMeetings": [
+        "23513f76-bac9-46a9-9cf2-2534c276c5c3",
+        "c6ade6e4-2de3-412e-ae04-c7f05aa2979a"
+      ],
+      "nextConnectedMeetings": [
+        "a0a7845f-7cae-4d6e-8ab9-1c472143755b",
+        "17cf3f94-c061-4306-89f2-c06143dfa589"
+      ],
+      "createdAt": "2025-10-28T14:00:00+00:00",
+      "updatedAt": "2025-10-29T14:30:00+00:00"
+    },
+    {
+      "id": "b15e1f16-0d49-40b9-b882-588b32a3a507",
+      "title": "1:1 with Marco",
+      "startTime": "2025-11-05T14:00:00+00:00",
+      "endTime": "2025-11-05T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/b15e1f16-0d49-40b9-b882-588b32a3a507.txt",
+      "previousConnectedMeetings": [
+        "17cf3f94-c061-4306-89f2-c06143dfa589",
+        "7fe776fe-915b-43ac-a0ab-2ddac11fbff6"
+      ],
+      "nextConnectedMeetings": [
+        "f7f683d8-840c-40f6-8957-2e77b8e3cb8c",
+        "0c7a4b19-5183-432d-b80f-b76a21b4d0d0"
+      ],
+      "createdAt": "2025-11-04T14:00:00+00:00",
+      "updatedAt": "2025-11-05T14:30:00+00:00"
+    },
+    {
+      "id": "62d4c11e-1620-4b49-93dc-912e50c6e846",
+      "title": "1:1 with Marco",
+      "startTime": "2025-11-12T14:00:00+00:00",
+      "endTime": "2025-11-12T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/62d4c11e-1620-4b49-93dc-912e50c6e846.txt",
+      "previousConnectedMeetings": [
+        "0c7a4b19-5183-432d-b80f-b76a21b4d0d0",
+        "7f3580c1-aace-4980-a88f-165c9bcb3697"
+      ],
+      "nextConnectedMeetings": [
+        "6d124b08-511c-440f-81a9-ff1387ee834f",
+        "33c6fb0d-33cf-41be-9a47-35521e5d541d"
+      ],
+      "createdAt": "2025-11-11T14:00:00+00:00",
+      "updatedAt": "2025-11-12T14:30:00+00:00"
+    },
+    {
+      "id": "55f0fb90-215b-4619-8172-d221d40e3f53",
+      "title": "1:1 with Marco",
+      "startTime": "2025-11-19T14:00:00+00:00",
+      "endTime": "2025-11-19T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/55f0fb90-215b-4619-8172-d221d40e3f53.txt",
+      "previousConnectedMeetings": [
+        "33c6fb0d-33cf-41be-9a47-35521e5d541d",
+        "dde076cb-2438-4336-9427-e970f8469ae7"
+      ],
+      "nextConnectedMeetings": [
+        "d7860413-fe45-4aed-b59d-e1019e71ca27",
+        "2e961888-d9c0-48f2-aa5b-937f5f2811d2"
+      ],
+      "createdAt": "2025-11-18T14:00:00+00:00",
+      "updatedAt": "2025-11-19T14:30:00+00:00"
+    },
+    {
+      "id": "fea3e931-ebbb-4b60-b014-953efd4517bf",
+      "title": "1:1 with Marco",
+      "startTime": "2025-11-26T14:00:00+00:00",
+      "endTime": "2025-11-26T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/fea3e931-ebbb-4b60-b014-953efd4517bf.txt",
+      "previousConnectedMeetings": [
+        "2e961888-d9c0-48f2-aa5b-937f5f2811d2",
+        "f7e5f58c-ee03-432c-8e65-da59bf47448a"
+      ],
+      "nextConnectedMeetings": [
+        "3c4c9992-81d0-4a35-b13d-549d7eb5b52e",
+        "ecb01e79-bfc5-4bdb-94ce-d5b2bc9396b9"
+      ],
+      "createdAt": "2025-11-25T14:00:00+00:00",
+      "updatedAt": "2025-11-26T14:30:00+00:00"
+    },
+    {
+      "id": "378a13df-08e1-49c0-8df3-d81009c71f74",
+      "title": "1:1 with Marco",
+      "startTime": "2025-12-03T14:00:00+00:00",
+      "endTime": "2025-12-03T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/378a13df-08e1-49c0-8df3-d81009c71f74.txt",
+      "previousConnectedMeetings": [
+        "ecb01e79-bfc5-4bdb-94ce-d5b2bc9396b9",
+        "71cc1200-c7a6-4e06-8b5d-7de0a94aa501"
+      ],
+      "nextConnectedMeetings": [
+        "df7200bf-08d3-4558-a579-7d1621dd0dda",
+        "fba3ede0-ea8e-4d29-b019-d5d697f236b4"
+      ],
+      "createdAt": "2025-12-02T14:00:00+00:00",
+      "updatedAt": "2025-12-03T14:30:00+00:00"
+    },
+    {
+      "id": "d7419f2a-f1b9-4637-8a9c-9aa7c46391cf",
+      "title": "1:1 with Marco",
+      "startTime": "2025-12-10T14:00:00+00:00",
+      "endTime": "2025-12-10T14:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d7419f2a-f1b9-4637-8a9c-9aa7c46391cf.txt",
+      "previousConnectedMeetings": [
+        "fba3ede0-ea8e-4d29-b019-d5d697f236b4",
+        "cb42f5fc-d5b0-4d19-90d9-59a459f95a57"
+      ],
+      "nextConnectedMeetings": ["6cc40769-b43d-4726-8037-4328575d172d"],
+      "createdAt": "2025-12-09T14:00:00+00:00",
+      "updatedAt": "2025-12-10T14:30:00+00:00"
+    },
+    {
+      "id": "880bbde0-5969-40d1-9168-349b1b376cde",
+      "title": "1:1 with Jin",
+      "startTime": "2025-09-10T15:00:00+00:00",
+      "endTime": "2025-09-10T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 8,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/880bbde0-5969-40d1-9168-349b1b376cde.txt",
+      "previousConnectedMeetings": [
+        "9646ff75-5813-407e-8c0a-dad2981891a8",
+        "d91cf08d-5086-4866-834f-da77898c101e"
+      ],
+      "nextConnectedMeetings": [
+        "e6f64248-59d6-48bf-8c7a-d1bbfef0022f",
+        "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3"
+      ],
+      "createdAt": "2025-09-09T15:00:00+00:00",
+      "updatedAt": "2025-09-10T15:30:00+00:00"
+    },
+    {
+      "id": "883a31e2-cfae-48ff-82a8-a67ee51ce4d8",
+      "title": "1:1 with Jin",
+      "startTime": "2025-09-17T15:00:00+00:00",
+      "endTime": "2025-09-17T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/883a31e2-cfae-48ff-82a8-a67ee51ce4d8.txt",
+      "previousConnectedMeetings": [
+        "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3",
+        "d19467be-a49c-4534-9a4c-55f25b5962f2"
+      ],
+      "nextConnectedMeetings": [
+        "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f",
+        "bfbd291c-b1af-4374-87a5-0b07a1d45cd3"
+      ],
+      "createdAt": "2025-09-16T15:00:00+00:00",
+      "updatedAt": "2025-09-17T15:30:00+00:00"
+    },
+    {
+      "id": "d7532bc9-3196-490d-9902-d91d55ad1fbd",
+      "title": "1:1 with Jin",
+      "startTime": "2025-09-24T15:00:00+00:00",
+      "endTime": "2025-09-24T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d7532bc9-3196-490d-9902-d91d55ad1fbd.txt",
+      "previousConnectedMeetings": [
+        "bfbd291c-b1af-4374-87a5-0b07a1d45cd3",
+        "fc6018f7-8515-4351-ba93-e0e90013adde"
+      ],
+      "nextConnectedMeetings": [
+        "9b918197-5314-4958-905b-f9024633e993",
+        "a4ca3a67-cd47-4385-ace0-46ba90b25af5"
+      ],
+      "createdAt": "2025-09-23T15:00:00+00:00",
+      "updatedAt": "2025-09-24T15:30:00+00:00"
+    },
+    {
+      "id": "8a5408d9-521e-4b95-acab-6f7dd9c69cf6",
+      "title": "1:1 with Jin",
+      "startTime": "2025-10-01T15:00:00+00:00",
+      "endTime": "2025-10-01T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 9,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/8a5408d9-521e-4b95-acab-6f7dd9c69cf6.txt",
+      "previousConnectedMeetings": [
+        "a4ca3a67-cd47-4385-ace0-46ba90b25af5",
+        "a81db787-9913-4a36-8158-00f82f52652f"
+      ],
+      "nextConnectedMeetings": [
+        "621a5878-4afc-4fb3-b335-0b7af29d9265",
+        "6865b6a5-2acb-40bd-8932-d5f5a54823c0"
+      ],
+      "createdAt": "2025-09-30T15:00:00+00:00",
+      "updatedAt": "2025-10-01T15:30:00+00:00"
+    },
+    {
+      "id": "6d7d2e22-2f91-4bb2-aed3-8d64766b0783",
+      "title": "1:1 with Jin",
+      "startTime": "2025-10-08T15:00:00+00:00",
+      "endTime": "2025-10-08T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/6d7d2e22-2f91-4bb2-aed3-8d64766b0783.txt",
+      "previousConnectedMeetings": [
+        "d9d7aa63-2418-4b08-b9c3-aff049feb5a6",
+        "9d713e0f-fbd0-4f11-ae89-8be86950d5e9"
+      ],
+      "nextConnectedMeetings": [
+        "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2",
+        "235b3e04-59ea-495c-9862-5d16e1d4273b"
+      ],
+      "createdAt": "2025-10-07T15:00:00+00:00",
+      "updatedAt": "2025-10-08T15:30:00+00:00"
+    },
+    {
+      "id": "a4dc30e5-301f-4637-a540-3003c0edaf9f",
+      "title": "1:1 with Jin",
+      "startTime": "2025-10-15T15:00:00+00:00",
+      "endTime": "2025-10-15T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/a4dc30e5-301f-4637-a540-3003c0edaf9f.txt",
+      "previousConnectedMeetings": [
+        "235b3e04-59ea-495c-9862-5d16e1d4273b",
+        "d0319a6f-5e64-4caf-a474-6248a5f65eb6"
+      ],
+      "nextConnectedMeetings": [
+        "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327",
+        "2cc814ca-c0ae-4ab8-9e32-45507a84ae99"
+      ],
+      "createdAt": "2025-10-14T15:00:00+00:00",
+      "updatedAt": "2025-10-15T15:30:00+00:00"
+    },
+    {
+      "id": "d08854a5-dac7-4c0a-8e61-7928358f8e85",
+      "title": "1:1 with Jin",
+      "startTime": "2025-10-22T15:00:00+00:00",
+      "endTime": "2025-10-22T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 8,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d08854a5-dac7-4c0a-8e61-7928358f8e85.txt",
+      "previousConnectedMeetings": [
+        "2cc814ca-c0ae-4ab8-9e32-45507a84ae99",
+        "b1f387ee-7b10-41fb-8f02-e7b6dba4c669"
+      ],
+      "nextConnectedMeetings": [
+        "0f337940-8656-4d93-ae31-0854ca6025c4",
+        "23513f76-bac9-46a9-9cf2-2534c276c5c3"
+      ],
+      "createdAt": "2025-10-21T15:00:00+00:00",
+      "updatedAt": "2025-10-22T15:30:00+00:00"
+    },
+    {
+      "id": "a0a7845f-7cae-4d6e-8ab9-1c472143755b",
+      "title": "1:1 with Jin",
+      "startTime": "2025-10-29T15:00:00+00:00",
+      "endTime": "2025-10-29T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 10,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/a0a7845f-7cae-4d6e-8ab9-1c472143755b.txt",
+      "previousConnectedMeetings": [
+        "c6ade6e4-2de3-412e-ae04-c7f05aa2979a",
+        "a7b4705a-b190-498f-b151-1bd157f5c288"
+      ],
+      "nextConnectedMeetings": [
+        "17cf3f94-c061-4306-89f2-c06143dfa589",
+        "7fe776fe-915b-43ac-a0ab-2ddac11fbff6"
+      ],
+      "createdAt": "2025-10-28T15:00:00+00:00",
+      "updatedAt": "2025-10-29T15:30:00+00:00"
+    },
+    {
+      "id": "f7f683d8-840c-40f6-8957-2e77b8e3cb8c",
+      "title": "1:1 with Jin",
+      "startTime": "2025-11-05T15:00:00+00:00",
+      "endTime": "2025-11-05T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": 7,
+      "coach_feedback": "Actionable growth items captured.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/f7f683d8-840c-40f6-8957-2e77b8e3cb8c.txt",
+      "previousConnectedMeetings": [
+        "7fe776fe-915b-43ac-a0ab-2ddac11fbff6",
+        "b15e1f16-0d49-40b9-b882-588b32a3a507"
+      ],
+      "nextConnectedMeetings": [
+        "0c7a4b19-5183-432d-b80f-b76a21b4d0d0",
+        "7f3580c1-aace-4980-a88f-165c9bcb3697"
+      ],
+      "createdAt": "2025-11-04T15:00:00+00:00",
+      "updatedAt": "2025-11-05T15:30:00+00:00"
+    },
+    {
+      "id": "6d124b08-511c-440f-81a9-ff1387ee834f",
+      "title": "1:1 with Jin",
+      "startTime": "2025-11-12T15:00:00+00:00",
+      "endTime": "2025-11-12T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/6d124b08-511c-440f-81a9-ff1387ee834f.txt",
+      "previousConnectedMeetings": [
+        "7f3580c1-aace-4980-a88f-165c9bcb3697",
+        "62d4c11e-1620-4b49-93dc-912e50c6e846"
+      ],
+      "nextConnectedMeetings": [
+        "33c6fb0d-33cf-41be-9a47-35521e5d541d",
+        "dde076cb-2438-4336-9427-e970f8469ae7"
+      ],
+      "createdAt": "2025-11-11T15:00:00+00:00",
+      "updatedAt": "2025-11-12T15:30:00+00:00"
+    },
+    {
+      "id": "d7860413-fe45-4aed-b59d-e1019e71ca27",
+      "title": "1:1 with Jin",
+      "startTime": "2025-11-19T15:00:00+00:00",
+      "endTime": "2025-11-19T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d7860413-fe45-4aed-b59d-e1019e71ca27.txt",
+      "previousConnectedMeetings": [
+        "dde076cb-2438-4336-9427-e970f8469ae7",
+        "55f0fb90-215b-4619-8172-d221d40e3f53"
+      ],
+      "nextConnectedMeetings": [
+        "2e961888-d9c0-48f2-aa5b-937f5f2811d2",
+        "f7e5f58c-ee03-432c-8e65-da59bf47448a"
+      ],
+      "createdAt": "2025-11-18T15:00:00+00:00",
+      "updatedAt": "2025-11-19T15:30:00+00:00"
+    },
+    {
+      "id": "3c4c9992-81d0-4a35-b13d-549d7eb5b52e",
+      "title": "1:1 with Jin",
+      "startTime": "2025-11-26T15:00:00+00:00",
+      "endTime": "2025-11-26T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/3c4c9992-81d0-4a35-b13d-549d7eb5b52e.txt",
+      "previousConnectedMeetings": [
+        "f7e5f58c-ee03-432c-8e65-da59bf47448a",
+        "fea3e931-ebbb-4b60-b014-953efd4517bf"
+      ],
+      "nextConnectedMeetings": [
+        "ecb01e79-bfc5-4bdb-94ce-d5b2bc9396b9",
+        "71cc1200-c7a6-4e06-8b5d-7de0a94aa501"
+      ],
+      "createdAt": "2025-11-25T15:00:00+00:00",
+      "updatedAt": "2025-11-26T15:30:00+00:00"
+    },
+    {
+      "id": "df7200bf-08d3-4558-a579-7d1621dd0dda",
+      "title": "1:1 with Jin",
+      "startTime": "2025-12-03T15:00:00+00:00",
+      "endTime": "2025-12-03T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/df7200bf-08d3-4558-a579-7d1621dd0dda.txt",
+      "previousConnectedMeetings": [
+        "71cc1200-c7a6-4e06-8b5d-7de0a94aa501",
+        "378a13df-08e1-49c0-8df3-d81009c71f74"
+      ],
+      "nextConnectedMeetings": [
+        "fba3ede0-ea8e-4d29-b019-d5d697f236b4",
+        "cb42f5fc-d5b0-4d19-90d9-59a459f95a57"
+      ],
+      "createdAt": "2025-12-02T15:00:00+00:00",
+      "updatedAt": "2025-12-03T15:30:00+00:00"
+    },
+    {
+      "id": "6cc40769-b43d-4726-8037-4328575d172d",
+      "title": "1:1 with Jin",
+      "startTime": "2025-12-10T15:00:00+00:00",
+      "endTime": "2025-12-10T15:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "ff8d6d3f-ad6c-45de-ab73-356d19805b74",
+      "ai_summary": "Coaching, feedback, prioritization.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/6cc40769-b43d-4726-8037-4328575d172d.txt",
+      "previousConnectedMeetings": [
+        "cb42f5fc-d5b0-4d19-90d9-59a459f95a57",
+        "d7419f2a-f1b9-4637-8a9c-9aa7c46391cf"
+      ],
+      "nextConnectedMeetings": [],
+      "createdAt": "2025-12-09T15:00:00+00:00",
+      "updatedAt": "2025-12-10T15:30:00+00:00"
+    },
+    {
+      "id": "b1912891-f44e-481e-bf47-6c289e1ca0b4",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-09-11T15:00:00+00:00",
+      "endTime": "2025-09-11T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 6,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/b1912891-f44e-481e-bf47-6c289e1ca0b4.txt",
+      "previousConnectedMeetings": [],
+      "nextConnectedMeetings": [
+        "3c7f9a24-fdbb-495f-9932-1534b141ea71",
+        "14d8ffec-3aa8-4447-a4d1-dc0f311bf848"
+      ],
+      "createdAt": "2025-09-10T15:00:00+00:00",
+      "updatedAt": "2025-09-11T15:45:00+00:00"
+    },
+    {
+      "id": "3c7f9a24-fdbb-495f-9932-1534b141ea71",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-09-18T15:00:00+00:00",
+      "endTime": "2025-09-18T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 9,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/3c7f9a24-fdbb-495f-9932-1534b141ea71.txt",
+      "previousConnectedMeetings": ["b1912891-f44e-481e-bf47-6c289e1ca0b4"],
+      "nextConnectedMeetings": [
+        "14d8ffec-3aa8-4447-a4d1-dc0f311bf848",
+        "120e36ea-e578-491c-ab31-64481f47ed4c"
+      ],
+      "createdAt": "2025-09-17T15:00:00+00:00",
+      "updatedAt": "2025-09-18T15:45:00+00:00"
+    },
+    {
+      "id": "14d8ffec-3aa8-4447-a4d1-dc0f311bf848",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-09-25T15:00:00+00:00",
+      "endTime": "2025-09-25T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 9,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/14d8ffec-3aa8-4447-a4d1-dc0f311bf848.txt",
+      "previousConnectedMeetings": [
+        "b1912891-f44e-481e-bf47-6c289e1ca0b4",
+        "3c7f9a24-fdbb-495f-9932-1534b141ea71"
+      ],
+      "nextConnectedMeetings": [
+        "120e36ea-e578-491c-ab31-64481f47ed4c",
+        "c5466d15-2631-4119-aff1-36a44fb7b850"
+      ],
+      "createdAt": "2025-09-24T15:00:00+00:00",
+      "updatedAt": "2025-09-25T15:45:00+00:00"
+    },
+    {
+      "id": "120e36ea-e578-491c-ab31-64481f47ed4c",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-10-02T15:00:00+00:00",
+      "endTime": "2025-10-02T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 6,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/120e36ea-e578-491c-ab31-64481f47ed4c.txt",
+      "previousConnectedMeetings": [
+        "3c7f9a24-fdbb-495f-9932-1534b141ea71",
+        "14d8ffec-3aa8-4447-a4d1-dc0f311bf848"
+      ],
+      "nextConnectedMeetings": [
+        "c5466d15-2631-4119-aff1-36a44fb7b850",
+        "ca322952-1a69-4860-a9a9-15db31979cae"
+      ],
+      "createdAt": "2025-10-01T15:00:00+00:00",
+      "updatedAt": "2025-10-02T15:45:00+00:00"
+    },
+    {
+      "id": "c5466d15-2631-4119-aff1-36a44fb7b850",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-10-09T15:00:00+00:00",
+      "endTime": "2025-10-09T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 9,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/c5466d15-2631-4119-aff1-36a44fb7b850.txt",
+      "previousConnectedMeetings": [
+        "14d8ffec-3aa8-4447-a4d1-dc0f311bf848",
+        "120e36ea-e578-491c-ab31-64481f47ed4c"
+      ],
+      "nextConnectedMeetings": [
+        "ca322952-1a69-4860-a9a9-15db31979cae",
+        "d3454b78-63f3-4286-b5c1-6081180c9147"
+      ],
+      "createdAt": "2025-10-08T15:00:00+00:00",
+      "updatedAt": "2025-10-09T15:45:00+00:00"
+    },
+    {
+      "id": "d3454b78-63f3-4286-b5c1-6081180c9147",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-10-16T15:00:00+00:00",
+      "endTime": "2025-10-16T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 8,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/d3454b78-63f3-4286-b5c1-6081180c9147.txt",
+      "previousConnectedMeetings": [
+        "c5466d15-2631-4119-aff1-36a44fb7b850",
+        "ca322952-1a69-4860-a9a9-15db31979cae"
+      ],
+      "nextConnectedMeetings": [
+        "0ba34ea9-ca3e-4888-9214-1bcba4efb071",
+        "71f15b38-643d-4908-9588-c97cef17d655"
+      ],
+      "createdAt": "2025-10-15T15:00:00+00:00",
+      "updatedAt": "2025-10-16T15:45:00+00:00"
+    },
+    {
+      "id": "71f15b38-643d-4908-9588-c97cef17d655",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-10-23T15:00:00+00:00",
+      "endTime": "2025-10-23T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 9,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/71f15b38-643d-4908-9588-c97cef17d655.txt",
+      "previousConnectedMeetings": [
+        "d3454b78-63f3-4286-b5c1-6081180c9147",
+        "0ba34ea9-ca3e-4888-9214-1bcba4efb071"
+      ],
+      "nextConnectedMeetings": [
+        "4e8cd139-77da-4099-bc9a-5fd29d5c6750",
+        "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc"
+      ],
+      "createdAt": "2025-10-22T15:00:00+00:00",
+      "updatedAt": "2025-10-23T15:45:00+00:00"
+    },
+    {
+      "id": "4e8cd139-77da-4099-bc9a-5fd29d5c6750",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-10-30T15:00:00+00:00",
+      "endTime": "2025-10-30T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 6,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/4e8cd139-77da-4099-bc9a-5fd29d5c6750.txt",
+      "previousConnectedMeetings": [
+        "0ba34ea9-ca3e-4888-9214-1bcba4efb071",
+        "71f15b38-643d-4908-9588-c97cef17d655"
+      ],
+      "nextConnectedMeetings": [
+        "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc",
+        "669484c6-5b0f-466f-b57a-40a4a33e5d4c"
+      ],
+      "createdAt": "2025-10-29T15:00:00+00:00",
+      "updatedAt": "2025-10-30T15:45:00+00:00"
+    },
+    {
+      "id": "669484c6-5b0f-466f-b57a-40a4a33e5d4c",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-11-06T15:00:00+00:00",
+      "endTime": "2025-11-06T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": 8,
+      "coach_feedback": "Good risk surfacing; clearer owners needed.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/669484c6-5b0f-466f-b57a-40a4a33e5d4c.txt",
+      "previousConnectedMeetings": [
+        "4e8cd139-77da-4099-bc9a-5fd29d5c6750",
+        "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc"
+      ],
+      "nextConnectedMeetings": [
+        "f4cac488-72ca-439b-b02f-28e0b71f3b53",
+        "25a6a044-f515-4d71-9c84-ff20cd148a25"
+      ],
+      "createdAt": "2025-11-05T15:00:00+00:00",
+      "updatedAt": "2025-11-06T15:45:00+00:00"
+    },
+    {
+      "id": "f4cac488-72ca-439b-b02f-28e0b71f3b53",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-11-13T15:00:00+00:00",
+      "endTime": "2025-11-13T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/f4cac488-72ca-439b-b02f-28e0b71f3b53.txt",
+      "previousConnectedMeetings": [
+        "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc",
+        "669484c6-5b0f-466f-b57a-40a4a33e5d4c"
+      ],
+      "nextConnectedMeetings": [
+        "25a6a044-f515-4d71-9c84-ff20cd148a25",
+        "6303a64b-3ba5-457c-8008-05a54d4ff414"
+      ],
+      "createdAt": "2025-11-12T15:00:00+00:00",
+      "updatedAt": "2025-11-13T15:45:00+00:00"
+    },
+    {
+      "id": "25a6a044-f515-4d71-9c84-ff20cd148a25",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-11-20T15:00:00+00:00",
+      "endTime": "2025-11-20T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/25a6a044-f515-4d71-9c84-ff20cd148a25.txt",
+      "previousConnectedMeetings": [
+        "669484c6-5b0f-466f-b57a-40a4a33e5d4c",
+        "f4cac488-72ca-439b-b02f-28e0b71f3b53"
+      ],
+      "nextConnectedMeetings": [
+        "6303a64b-3ba5-457c-8008-05a54d4ff414",
+        "b4198e57-47c6-45f4-bc63-806c6bcd0502"
+      ],
+      "createdAt": "2025-11-19T15:00:00+00:00",
+      "updatedAt": "2025-11-20T15:45:00+00:00"
+    },
+    {
+      "id": "6303a64b-3ba5-457c-8008-05a54d4ff414",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-11-27T15:00:00+00:00",
+      "endTime": "2025-11-27T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/6303a64b-3ba5-457c-8008-05a54d4ff414.txt",
+      "previousConnectedMeetings": [
+        "f4cac488-72ca-439b-b02f-28e0b71f3b53",
+        "25a6a044-f515-4d71-9c84-ff20cd148a25"
+      ],
+      "nextConnectedMeetings": ["b4198e57-47c6-45f4-bc63-806c6bcd0502"],
+      "createdAt": "2025-11-26T15:00:00+00:00",
+      "updatedAt": "2025-11-27T15:45:00+00:00"
+    },
+    {
+      "id": "b4198e57-47c6-45f4-bc63-806c6bcd0502",
+      "title": "Windows App \u2014 Weekly Sync",
+      "startTime": "2025-12-04T15:00:00+00:00",
+      "endTime": "2025-12-04T15:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "c45a4a82-9d4b-4c10-b386-bd86d05143cc",
+      "ai_summary": "Packaging, parity, performance, and beta milestones.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/b4198e57-47c6-45f4-bc63-806c6bcd0502.txt",
+      "previousConnectedMeetings": [
+        "25a6a044-f515-4d71-9c84-ff20cd148a25",
+        "6303a64b-3ba5-457c-8008-05a54d4ff414"
+      ],
+      "nextConnectedMeetings": [],
+      "createdAt": "2025-12-03T15:00:00+00:00",
+      "updatedAt": "2025-12-04T15:45:00+00:00"
+    },
+    {
+      "id": "c79a164b-a984-4ce5-9294-c2afb80cbd51",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-09-12T11:00:00+00:00",
+      "endTime": "2025-09-12T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 7,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/c79a164b-a984-4ce5-9294-c2afb80cbd51.txt",
+      "previousConnectedMeetings": [],
+      "nextConnectedMeetings": [
+        "1c0f05d4-7dc1-4ca0-888e-a65ce87e7150",
+        "adc4cede-6da6-4920-98ac-907ba5b2d0ff"
+      ],
+      "createdAt": "2025-09-11T11:00:00+00:00",
+      "updatedAt": "2025-09-12T11:40:00+00:00"
+    },
+    {
+      "id": "1c0f05d4-7dc1-4ca0-888e-a65ce87e7150",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-09-19T11:00:00+00:00",
+      "endTime": "2025-09-19T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 6,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/1c0f05d4-7dc1-4ca0-888e-a65ce87e7150.txt",
+      "previousConnectedMeetings": ["c79a164b-a984-4ce5-9294-c2afb80cbd51"],
+      "nextConnectedMeetings": [
+        "adc4cede-6da6-4920-98ac-907ba5b2d0ff",
+        "2a4a0229-bd87-4135-a2c9-ede46e048822"
+      ],
+      "createdAt": "2025-09-18T11:00:00+00:00",
+      "updatedAt": "2025-09-19T11:40:00+00:00"
+    },
+    {
+      "id": "adc4cede-6da6-4920-98ac-907ba5b2d0ff",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-09-26T11:00:00+00:00",
+      "endTime": "2025-09-26T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 6,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/adc4cede-6da6-4920-98ac-907ba5b2d0ff.txt",
+      "previousConnectedMeetings": [
+        "c79a164b-a984-4ce5-9294-c2afb80cbd51",
+        "1c0f05d4-7dc1-4ca0-888e-a65ce87e7150"
+      ],
+      "nextConnectedMeetings": [
+        "2a4a0229-bd87-4135-a2c9-ede46e048822",
+        "23e2fdf2-7438-4583-9a70-45fff4c4adec"
+      ],
+      "createdAt": "2025-09-25T11:00:00+00:00",
+      "updatedAt": "2025-09-26T11:40:00+00:00"
+    },
+    {
+      "id": "2a4a0229-bd87-4135-a2c9-ede46e048822",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-10-03T11:00:00+00:00",
+      "endTime": "2025-10-03T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 6,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/2a4a0229-bd87-4135-a2c9-ede46e048822.txt",
+      "previousConnectedMeetings": [
+        "1c0f05d4-7dc1-4ca0-888e-a65ce87e7150",
+        "adc4cede-6da6-4920-98ac-907ba5b2d0ff"
+      ],
+      "nextConnectedMeetings": [
+        "23e2fdf2-7438-4583-9a70-45fff4c4adec",
+        "94d98e96-fa50-443c-a73b-364c96c275a2"
+      ],
+      "createdAt": "2025-10-02T11:00:00+00:00",
+      "updatedAt": "2025-10-03T11:40:00+00:00"
+    },
+    {
+      "id": "23e2fdf2-7438-4583-9a70-45fff4c4adec",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-10-10T11:00:00+00:00",
+      "endTime": "2025-10-10T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 7,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/23e2fdf2-7438-4583-9a70-45fff4c4adec.txt",
+      "previousConnectedMeetings": [
+        "adc4cede-6da6-4920-98ac-907ba5b2d0ff",
+        "2a4a0229-bd87-4135-a2c9-ede46e048822"
+      ],
+      "nextConnectedMeetings": [
+        "94d98e96-fa50-443c-a73b-364c96c275a2",
+        "1156476a-ad34-4fd2-8d72-7f0878b94fd0"
+      ],
+      "createdAt": "2025-10-09T11:00:00+00:00",
+      "updatedAt": "2025-10-10T11:40:00+00:00"
+    },
+    {
+      "id": "94d98e96-fa50-443c-a73b-364c96c275a2",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-10-17T11:00:00+00:00",
+      "endTime": "2025-10-17T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 9,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/94d98e96-fa50-443c-a73b-364c96c275a2.txt",
+      "previousConnectedMeetings": [
+        "2a4a0229-bd87-4135-a2c9-ede46e048822",
+        "23e2fdf2-7438-4583-9a70-45fff4c4adec"
+      ],
+      "nextConnectedMeetings": [
+        "1156476a-ad34-4fd2-8d72-7f0878b94fd0",
+        "46c42df0-b9b0-4f46-9fea-bc41536d3de5"
+      ],
+      "createdAt": "2025-10-16T11:00:00+00:00",
+      "updatedAt": "2025-10-17T11:40:00+00:00"
+    },
+    {
+      "id": "46c42df0-b9b0-4f46-9fea-bc41536d3de5",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-10-24T11:00:00+00:00",
+      "endTime": "2025-10-24T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 6,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/46c42df0-b9b0-4f46-9fea-bc41536d3de5.txt",
+      "previousConnectedMeetings": [
+        "94d98e96-fa50-443c-a73b-364c96c275a2",
+        "1156476a-ad34-4fd2-8d72-7f0878b94fd0"
+      ],
+      "nextConnectedMeetings": [
+        "bba71ffb-2bb7-4162-8568-1b950243da69",
+        "96021e79-68b9-412e-9e20-2bc69a2866d3"
+      ],
+      "createdAt": "2025-10-23T11:00:00+00:00",
+      "updatedAt": "2025-10-24T11:40:00+00:00"
+    },
+    {
+      "id": "96021e79-68b9-412e-9e20-2bc69a2866d3",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-10-31T11:00:00+00:00",
+      "endTime": "2025-10-31T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 7,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/96021e79-68b9-412e-9e20-2bc69a2866d3.txt",
+      "previousConnectedMeetings": [
+        "46c42df0-b9b0-4f46-9fea-bc41536d3de5",
+        "bba71ffb-2bb7-4162-8568-1b950243da69"
+      ],
+      "nextConnectedMeetings": [
+        "aee1abcc-8232-45db-a699-93712bf65707",
+        "070ac2e1-b4cc-46ff-87e6-b20df2691bee"
+      ],
+      "createdAt": "2025-10-30T11:00:00+00:00",
+      "updatedAt": "2025-10-31T11:40:00+00:00"
+    },
+    {
+      "id": "070ac2e1-b4cc-46ff-87e6-b20df2691bee",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-11-07T11:00:00+00:00",
+      "endTime": "2025-11-07T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": 9,
+      "coach_feedback": "Decisions captured, next steps clear.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/070ac2e1-b4cc-46ff-87e6-b20df2691bee.txt",
+      "previousConnectedMeetings": [
+        "96021e79-68b9-412e-9e20-2bc69a2866d3",
+        "aee1abcc-8232-45db-a699-93712bf65707"
+      ],
+      "nextConnectedMeetings": [
+        "8d3a5a6b-a9cc-4dea-904c-3725e4b75b94",
+        "6f03f711-48ff-4bcf-8af6-093a30d3bbf8"
+      ],
+      "createdAt": "2025-11-06T11:00:00+00:00",
+      "updatedAt": "2025-11-07T11:40:00+00:00"
+    },
+    {
+      "id": "8d3a5a6b-a9cc-4dea-904c-3725e4b75b94",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-11-14T11:00:00+00:00",
+      "endTime": "2025-11-14T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/8d3a5a6b-a9cc-4dea-904c-3725e4b75b94.txt",
+      "previousConnectedMeetings": [
+        "aee1abcc-8232-45db-a699-93712bf65707",
+        "070ac2e1-b4cc-46ff-87e6-b20df2691bee"
+      ],
+      "nextConnectedMeetings": [
+        "6f03f711-48ff-4bcf-8af6-093a30d3bbf8",
+        "39800e69-3b13-4cb1-b9f9-6114e2c2e55f"
+      ],
+      "createdAt": "2025-11-13T11:00:00+00:00",
+      "updatedAt": "2025-11-14T11:40:00+00:00"
+    },
+    {
+      "id": "6f03f711-48ff-4bcf-8af6-093a30d3bbf8",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-11-21T11:00:00+00:00",
+      "endTime": "2025-11-21T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/6f03f711-48ff-4bcf-8af6-093a30d3bbf8.txt",
+      "previousConnectedMeetings": [
+        "070ac2e1-b4cc-46ff-87e6-b20df2691bee",
+        "8d3a5a6b-a9cc-4dea-904c-3725e4b75b94"
+      ],
+      "nextConnectedMeetings": [
+        "39800e69-3b13-4cb1-b9f9-6114e2c2e55f",
+        "461c577f-0a44-4dcd-9254-b3711ba18503"
+      ],
+      "createdAt": "2025-11-20T11:00:00+00:00",
+      "updatedAt": "2025-11-21T11:40:00+00:00"
+    },
+    {
+      "id": "39800e69-3b13-4cb1-b9f9-6114e2c2e55f",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-11-28T11:00:00+00:00",
+      "endTime": "2025-11-28T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/39800e69-3b13-4cb1-b9f9-6114e2c2e55f.txt",
+      "previousConnectedMeetings": [
+        "8d3a5a6b-a9cc-4dea-904c-3725e4b75b94",
+        "6f03f711-48ff-4bcf-8af6-093a30d3bbf8"
+      ],
+      "nextConnectedMeetings": ["461c577f-0a44-4dcd-9254-b3711ba18503"],
+      "createdAt": "2025-11-27T11:00:00+00:00",
+      "updatedAt": "2025-11-28T11:40:00+00:00"
+    },
+    {
+      "id": "461c577f-0a44-4dcd-9254-b3711ba18503",
+      "title": "Fireside Chat Planning",
+      "startTime": "2025-12-05T11:00:00+00:00",
+      "endTime": "2025-12-05T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "77523991-1847-44a6-8782-1dd77a448f27",
+      "ai_summary": "Ops/marketing checklist toward event readiness.",
+      "coach_score": null,
+      "coach_feedback": "",
+      "status": "scheduled",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/461c577f-0a44-4dcd-9254-b3711ba18503.txt",
+      "previousConnectedMeetings": [
+        "6f03f711-48ff-4bcf-8af6-093a30d3bbf8",
+        "39800e69-3b13-4cb1-b9f9-6114e2c2e55f"
+      ],
+      "nextConnectedMeetings": [],
+      "createdAt": "2025-12-04T11:00:00+00:00",
+      "updatedAt": "2025-12-05T11:40:00+00:00"
+    },
+    {
+      "id": "ca322952-1a69-4860-a9a9-15db31979cae",
+      "title": "Design Review \u2014 Windows Installer UX",
+      "startTime": "2025-10-13T11:00:00+00:00",
+      "endTime": "2025-10-13T12:00:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "8663ff48-5560-4a08-825e-56c8c3548d18",
+        "ebf40a07-9bb9-45a1-a987-b05cd2b05504",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "1a47041e-ad56-48a6-9ab4-b8065fc6652d",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 9,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Office",
+      "transcript_url": "https://example.com/transcripts/ca322952-1a69-4860-a9a9-15db31979cae.txt",
+      "previousConnectedMeetings": [
+        "120e36ea-e578-491c-ab31-64481f47ed4c",
+        "c5466d15-2631-4119-aff1-36a44fb7b850"
+      ],
+      "nextConnectedMeetings": [
+        "d3454b78-63f3-4286-b5c1-6081180c9147",
+        "0ba34ea9-ca3e-4888-9214-1bcba4efb071"
+      ],
+      "createdAt": "2025-10-12T11:00:00+00:00",
+      "updatedAt": "2025-10-13T12:00:00+00:00"
+    },
+    {
+      "id": "0ba34ea9-ca3e-4888-9214-1bcba4efb071",
+      "title": "Incident Review \u2014 Crash on Win11 23H2",
+      "startTime": "2025-10-21T11:00:00+00:00",
+      "endTime": "2025-10-21T11:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+        "0563b872-c462-44dd-ab45-c1f4b7649843"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "f2580988-9524-45e1-8771-4fa1e5eda193",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 9,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Office",
+      "transcript_url": "https://example.com/transcripts/0ba34ea9-ca3e-4888-9214-1bcba4efb071.txt",
+      "previousConnectedMeetings": [
+        "ca322952-1a69-4860-a9a9-15db31979cae",
+        "d3454b78-63f3-4286-b5c1-6081180c9147"
+      ],
+      "nextConnectedMeetings": [
+        "71f15b38-643d-4908-9588-c97cef17d655",
+        "4e8cd139-77da-4099-bc9a-5fd29d5c6750"
+      ],
+      "createdAt": "2025-10-20T11:00:00+00:00",
+      "updatedAt": "2025-10-21T11:45:00+00:00"
+    },
+    {
+      "id": "6865b6a5-2acb-40bd-8932-d5f5a54823c0",
+      "title": "Customer Call \u2014 Enterprise onboarding feedback",
+      "startTime": "2025-10-07T11:00:00+00:00",
+      "endTime": "2025-10-07T11:50:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "3db1fcc1-f5b7-46e8-9fa1-4b7685e275e7",
+        "8663ff48-5560-4a08-825e-56c8c3548d18"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "1dc85637-190f-410a-8c25-3e7041c1b078",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 6,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/6865b6a5-2acb-40bd-8932-d5f5a54823c0.txt",
+      "previousConnectedMeetings": [
+        "8a5408d9-521e-4b95-acab-6f7dd9c69cf6",
+        "621a5878-4afc-4fb3-b335-0b7af29d9265"
+      ],
+      "nextConnectedMeetings": [
+        "d9d7aa63-2418-4b08-b9c3-aff049feb5a6",
+        "9d713e0f-fbd0-4f11-ae89-8be86950d5e9"
+      ],
+      "createdAt": "2025-10-06T11:00:00+00:00",
+      "updatedAt": "2025-10-07T11:50:00+00:00"
+    },
+    {
+      "id": "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc",
+      "title": "Customer Call \u2014 Security review Q&A",
+      "startTime": "2025-11-01T11:00:00+00:00",
+      "endTime": "2025-11-01T11:40:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "9edfeeb4-40e0-4250-9efc-50b41434bfe1",
+        "5ad9ae1f-3f89-426a-9abd-c480e47c34fc"
+      ],
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "agendaId": "9989fb05-26fc-402f-9f1e-7e8c3feb3ef0",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 6,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc.txt",
+      "previousConnectedMeetings": [
+        "71f15b38-643d-4908-9588-c97cef17d655",
+        "4e8cd139-77da-4099-bc9a-5fd29d5c6750"
+      ],
+      "nextConnectedMeetings": [
+        "669484c6-5b0f-466f-b57a-40a4a33e5d4c",
+        "f4cac488-72ca-439b-b02f-28e0b71f3b53"
+      ],
+      "createdAt": "2025-10-31T11:00:00+00:00",
+      "updatedAt": "2025-11-01T11:40:00+00:00"
+    },
+    {
+      "id": "1156476a-ad34-4fd2-8d72-7f0878b94fd0",
+      "title": "Vendor Call \u2014 The Foundry Venue walkthrough",
+      "startTime": "2025-10-19T11:00:00+00:00",
+      "endTime": "2025-10-19T11:30:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "ef0a59e9-bb5f-4cb3-913a-5b240c95d565",
+        "bae3ff1b-e2ca-4093-ab93-67cff9f490d2"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "61bc316a-c71d-4f78-8b06-fb4745ae8166",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 8,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Zoom",
+      "transcript_url": "https://example.com/transcripts/1156476a-ad34-4fd2-8d72-7f0878b94fd0.txt",
+      "previousConnectedMeetings": [
+        "23e2fdf2-7438-4583-9a70-45fff4c4adec",
+        "94d98e96-fa50-443c-a73b-364c96c275a2"
+      ],
+      "nextConnectedMeetings": [
+        "46c42df0-b9b0-4f46-9fea-bc41536d3de5",
+        "bba71ffb-2bb7-4162-8568-1b950243da69"
+      ],
+      "createdAt": "2025-10-18T11:00:00+00:00",
+      "updatedAt": "2025-10-19T11:30:00+00:00"
+    },
+    {
+      "id": "aee1abcc-8232-45db-a699-93712bf65707",
+      "title": "Catering Menu Tasting",
+      "startTime": "2025-11-03T11:00:00+00:00",
+      "endTime": "2025-11-03T11:45:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "2768ce32-b1c4-4b37-b3d4-7d1a54e79d7d",
+        "092d304f-6798-453e-a392-827d633b49c0"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "c60b7565-f80c-4978-8e4b-6f00c069142f",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 9,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Office",
+      "transcript_url": "https://example.com/transcripts/aee1abcc-8232-45db-a699-93712bf65707.txt",
+      "previousConnectedMeetings": [
+        "bba71ffb-2bb7-4162-8568-1b950243da69",
+        "96021e79-68b9-412e-9e20-2bc69a2866d3"
+      ],
+      "nextConnectedMeetings": [
+        "070ac2e1-b4cc-46ff-87e6-b20df2691bee",
+        "8d3a5a6b-a9cc-4dea-904c-3725e4b75b94"
+      ],
+      "createdAt": "2025-11-02T11:00:00+00:00",
+      "updatedAt": "2025-11-03T11:45:00+00:00"
+    },
+    {
+      "id": "bba71ffb-2bb7-4162-8568-1b950243da69",
+      "title": "Landing Page Review",
+      "startTime": "2025-10-29T11:00:00+00:00",
+      "endTime": "2025-10-29T11:35:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "092d304f-6798-453e-a392-827d633b49c0",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4"
+      ],
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "agendaId": "653aeb6a-5c32-49cf-bd39-9365601c043e",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 8,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Office",
+      "transcript_url": "https://example.com/transcripts/bba71ffb-2bb7-4162-8568-1b950243da69.txt",
+      "previousConnectedMeetings": [
+        "1156476a-ad34-4fd2-8d72-7f0878b94fd0",
+        "46c42df0-b9b0-4f46-9fea-bc41536d3de5"
+      ],
+      "nextConnectedMeetings": [
+        "96021e79-68b9-412e-9e20-2bc69a2866d3",
+        "aee1abcc-8232-45db-a699-93712bf65707"
+      ],
+      "createdAt": "2025-10-28T11:00:00+00:00",
+      "updatedAt": "2025-10-29T11:35:00+00:00"
+    },
+    {
+      "id": "0f337940-8656-4d93-ae31-0854ca6025c4",
+      "title": "Design Crit \u2014 New onboarding flow",
+      "startTime": "2025-10-26T11:00:00+00:00",
+      "endTime": "2025-10-26T11:50:00+00:00",
+      "participants": [
+        "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+        "1edc4bd8-fb06-4313-8de9-84f0edd3e9d4",
+        "abb27cc4-157f-48cf-9b55-7fd5d0049e09"
+      ],
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "agendaId": "05d7bc01-4114-4bff-b20d-dcf91ee5fa08",
+      "ai_summary": "Focused discussion with clear decisions and owners.",
+      "coach_score": 9,
+      "coach_feedback": "Good facilitation; keep tighter scope next time.",
+      "status": "completed",
+      "location": "Office",
+      "transcript_url": "https://example.com/transcripts/0f337940-8656-4d93-ae31-0854ca6025c4.txt",
+      "previousConnectedMeetings": [
+        "b1f387ee-7b10-41fb-8f02-e7b6dba4c669",
+        "d08854a5-dac7-4c0a-8e61-7928358f8e85"
+      ],
+      "nextConnectedMeetings": [
+        "23513f76-bac9-46a9-9cf2-2534c276c5c3",
+        "c6ade6e4-2de3-412e-ae04-c7f05aa2979a"
+      ],
+      "createdAt": "2025-10-25T11:00:00+00:00",
+      "updatedAt": "2025-10-26T11:50:00+00:00"
+    }
+  ],
+  "meetingNotes": [
+    {
+      "id": "fdbf30fb-40e9-41c0-8102-2b5c8647e80f",
+      "meetingId": "ca322952-1a69-4860-a9a9-15db31979cae",
+      "content": "Discussion points for 'Design Review \u2014 Windows Installer UX'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "8f29a62e-e732-499b-b196-2b289eff4821",
+      "meetingId": "0ba34ea9-ca3e-4888-9214-1bcba4efb071",
+      "content": "Discussion points for 'Incident Review \u2014 Crash on Win11 23H2'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d500c930-61be-4fd3-b87f-5894572a2734",
+      "meetingId": "6865b6a5-2acb-40bd-8932-d5f5a54823c0",
+      "content": "Discussion points for 'Customer Call \u2014 Enterprise onboarding feedback'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c9697fbc-9ef8-455f-8756-b47fd98b2966",
+      "meetingId": "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc",
+      "content": "Discussion points for 'Customer Call \u2014 Security review Q&A'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ac045513-4dec-4f4d-8983-1860bc15a5db",
+      "meetingId": "1156476a-ad34-4fd2-8d72-7f0878b94fd0",
+      "content": "Discussion points for 'Vendor Call \u2014 The Foundry Venue walkthrough'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "2c463b4a-8582-40a3-8f1a-51329f2e98b5",
+      "meetingId": "aee1abcc-8232-45db-a699-93712bf65707",
+      "content": "Discussion points for 'Catering Menu Tasting'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c921054a-b2d6-402b-9afd-c9b873f32072",
+      "meetingId": "bba71ffb-2bb7-4162-8568-1b950243da69",
+      "content": "Discussion points for 'Landing Page Review'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d32f59be-7e9f-40ff-9f17-bf1640a80a76",
+      "meetingId": "0f337940-8656-4d93-ae31-0854ca6025c4",
+      "content": "Discussion points for 'Design Crit \u2014 New onboarding flow'. Key risks identified and mitigations proposed.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5f91819b-0b44-46c2-89c2-6c41a304da8d",
+      "meetingId": "e6f64248-59d6-48bf-8c7a-d1bbfef0022f",
+      "content": "AI notes auto-generated for team meeting on 2025-09-15: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d174216a-6be8-4eef-893d-912990084450",
+      "meetingId": "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f",
+      "content": "AI notes auto-generated for team meeting on 2025-09-22: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "cd26fda4-77e9-41da-b048-cb9a77372c64",
+      "meetingId": "9b918197-5314-4958-905b-f9024633e993",
+      "content": "AI notes auto-generated for team meeting on 2025-09-29: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "18c526a5-dbe4-4987-a8a7-ce7c59d323f2",
+      "meetingId": "621a5878-4afc-4fb3-b335-0b7af29d9265",
+      "content": "AI notes auto-generated for team meeting on 2025-10-06: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1bb8bd7d-1edf-43ce-b7d4-b486a7f71292",
+      "meetingId": "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2",
+      "content": "AI notes auto-generated for team meeting on 2025-10-13: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5aa9bc04-be4a-416e-9b2c-4d142757167e",
+      "meetingId": "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327",
+      "content": "AI notes auto-generated for team meeting on 2025-10-20: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "278fb450-53cc-48ed-bc0f-a276d177cf63",
+      "meetingId": "23513f76-bac9-46a9-9cf2-2534c276c5c3",
+      "content": "AI notes auto-generated for team meeting on 2025-10-27: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d4716f92-b924-470c-ae12-424dacedbf3d",
+      "meetingId": "17cf3f94-c061-4306-89f2-c06143dfa589",
+      "content": "AI notes auto-generated for team meeting on 2025-11-03: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1e2422fb-823b-4e06-9a38-a3bc920200d2",
+      "meetingId": "9646ff75-5813-407e-8c0a-dad2981891a8",
+      "content": "AI notes auto-generated for team meeting on 2025-09-09: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5db1531a-3cc3-4fe4-9853-d508248ae51c",
+      "meetingId": "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3",
+      "content": "AI notes auto-generated for team meeting on 2025-09-16: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "277d88d5-ac3c-405c-8def-50075f42b372",
+      "meetingId": "bfbd291c-b1af-4374-87a5-0b07a1d45cd3",
+      "content": "AI notes auto-generated for team meeting on 2025-09-23: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f2f3bbcc-4a8e-44b7-8344-32a7cdaacbba",
+      "meetingId": "a4ca3a67-cd47-4385-ace0-46ba90b25af5",
+      "content": "AI notes auto-generated for team meeting on 2025-09-30: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "e074ef66-7844-48d8-9bf8-045b88d9227f",
+      "meetingId": "d9d7aa63-2418-4b08-b9c3-aff049feb5a6",
+      "content": "AI notes auto-generated for team meeting on 2025-10-07: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "a8e3a9a4-432f-4821-837c-f951174b57bf",
+      "meetingId": "235b3e04-59ea-495c-9862-5d16e1d4273b",
+      "content": "AI notes auto-generated for team meeting on 2025-10-14: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "be62403d-eefb-4b8a-834c-ccaa54cbc5df",
+      "meetingId": "2cc814ca-c0ae-4ab8-9e32-45507a84ae99",
+      "content": "AI notes auto-generated for team meeting on 2025-10-21: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "32a18983-0aa2-477a-a37e-2c0c8274984e",
+      "meetingId": "c6ade6e4-2de3-412e-ae04-c7f05aa2979a",
+      "content": "AI notes auto-generated for team meeting on 2025-10-28: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c9d6e678-391d-4183-9e49-d84720671e81",
+      "meetingId": "7fe776fe-915b-43ac-a0ab-2ddac11fbff6",
+      "content": "AI notes auto-generated for team meeting on 2025-11-04: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "74e8524d-9fee-4759-a84c-bdefb03e3cc0",
+      "meetingId": "d91cf08d-5086-4866-834f-da77898c101e",
+      "content": "AI notes auto-generated for team meeting on 2025-09-10: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "474abecd-4c7b-4dd2-bf20-1571a7b595a8",
+      "meetingId": "d19467be-a49c-4534-9a4c-55f25b5962f2",
+      "content": "AI notes auto-generated for team meeting on 2025-09-17: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d4c9c8c9-d676-40f2-b30f-72c207fae7b2",
+      "meetingId": "fc6018f7-8515-4351-ba93-e0e90013adde",
+      "content": "AI notes auto-generated for team meeting on 2025-09-24: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1c8d7ec1-e7e3-4dec-8763-25f1e2c48613",
+      "meetingId": "a81db787-9913-4a36-8158-00f82f52652f",
+      "content": "AI notes auto-generated for team meeting on 2025-10-01: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c4f88d36-b32c-4323-a51a-376ad41af204",
+      "meetingId": "9d713e0f-fbd0-4f11-ae89-8be86950d5e9",
+      "content": "AI notes auto-generated for team meeting on 2025-10-08: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "3d6f5e50-0171-46a8-8efd-bbf3dfd0b085",
+      "meetingId": "d0319a6f-5e64-4caf-a474-6248a5f65eb6",
+      "content": "AI notes auto-generated for team meeting on 2025-10-15: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "efbf3c23-0095-4892-8828-039bca000877",
+      "meetingId": "b1f387ee-7b10-41fb-8f02-e7b6dba4c669",
+      "content": "AI notes auto-generated for team meeting on 2025-10-22: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "7a29101e-30ba-4c86-93f5-9086df9c6e81",
+      "meetingId": "a7b4705a-b190-498f-b151-1bd157f5c288",
+      "content": "AI notes auto-generated for team meeting on 2025-10-29: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f1fca84e-f49c-4fed-873f-cef0ef4e0c33",
+      "meetingId": "b15e1f16-0d49-40b9-b882-588b32a3a507",
+      "content": "AI notes auto-generated for team meeting on 2025-11-05: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "eea95952-949b-4f2f-98a0-ad875181cf08",
+      "meetingId": "880bbde0-5969-40d1-9168-349b1b376cde",
+      "content": "AI notes auto-generated for team meeting on 2025-09-10: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "36e97fc6-e4c9-49eb-8a7b-d10c09a846ba",
+      "meetingId": "883a31e2-cfae-48ff-82a8-a67ee51ce4d8",
+      "content": "AI notes auto-generated for team meeting on 2025-09-17: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "33229474-d742-48b1-955e-1c172cb1b257",
+      "meetingId": "d7532bc9-3196-490d-9902-d91d55ad1fbd",
+      "content": "AI notes auto-generated for team meeting on 2025-09-24: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "2c372cdb-3088-4446-a61f-8ba0f429c947",
+      "meetingId": "8a5408d9-521e-4b95-acab-6f7dd9c69cf6",
+      "content": "AI notes auto-generated for team meeting on 2025-10-01: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "bb167caa-c529-475a-9fd9-1935d8db351e",
+      "meetingId": "6d7d2e22-2f91-4bb2-aed3-8d64766b0783",
+      "content": "AI notes auto-generated for team meeting on 2025-10-08: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "72e5d164-301f-4f71-bfe1-2b9fa8d23e2d",
+      "meetingId": "a4dc30e5-301f-4637-a540-3003c0edaf9f",
+      "content": "AI notes auto-generated for team meeting on 2025-10-15: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5f09c663-d8d1-4454-aec2-c5de20b978bb",
+      "meetingId": "d08854a5-dac7-4c0a-8e61-7928358f8e85",
+      "content": "AI notes auto-generated for team meeting on 2025-10-22: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9779f2ad-13cb-4a0c-a70a-5a69309981d0",
+      "meetingId": "a0a7845f-7cae-4d6e-8ab9-1c472143755b",
+      "content": "AI notes auto-generated for team meeting on 2025-10-29: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1c192b82-9247-4b19-b6cc-2bf072f5185a",
+      "meetingId": "f7f683d8-840c-40f6-8957-2e77b8e3cb8c",
+      "content": "AI notes auto-generated for team meeting on 2025-11-05: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ef982513-6790-46d6-ab28-a557ea4fa663",
+      "meetingId": "b1912891-f44e-481e-bf47-6c289e1ca0b4",
+      "content": "AI notes auto-generated for windows meeting on 2025-09-11: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "14214478-004a-4008-bcfe-38c7f1c473db",
+      "meetingId": "3c7f9a24-fdbb-495f-9932-1534b141ea71",
+      "content": "AI notes auto-generated for windows meeting on 2025-09-18: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "49021655-52b3-4ea4-810f-f90ea498fc0d",
+      "meetingId": "14d8ffec-3aa8-4447-a4d1-dc0f311bf848",
+      "content": "AI notes auto-generated for windows meeting on 2025-09-25: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "871c3212-6b20-4de4-a4fe-4a569461ae49",
+      "meetingId": "120e36ea-e578-491c-ab31-64481f47ed4c",
+      "content": "AI notes auto-generated for windows meeting on 2025-10-02: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "cdb8c7a6-4f82-4396-8a38-b99846d4762c",
+      "meetingId": "c5466d15-2631-4119-aff1-36a44fb7b850",
+      "content": "AI notes auto-generated for windows meeting on 2025-10-09: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d9be14b9-c7b0-4075-9120-4b4f17ff8c69",
+      "meetingId": "d3454b78-63f3-4286-b5c1-6081180c9147",
+      "content": "AI notes auto-generated for windows meeting on 2025-10-16: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d219998a-a3b1-41c6-9aa0-80405820e9db",
+      "meetingId": "71f15b38-643d-4908-9588-c97cef17d655",
+      "content": "AI notes auto-generated for windows meeting on 2025-10-23: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "a69e711f-0168-4a20-a2b0-1aa86462d3d2",
+      "meetingId": "4e8cd139-77da-4099-bc9a-5fd29d5c6750",
+      "content": "AI notes auto-generated for windows meeting on 2025-10-30: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "8c0d3b06-a20d-4e79-89ca-668e8cc970c8",
+      "meetingId": "669484c6-5b0f-466f-b57a-40a4a33e5d4c",
+      "content": "AI notes auto-generated for windows meeting on 2025-11-06: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "019a0a3c-71ce-488e-8945-47c8557b800c",
+      "meetingId": "c79a164b-a984-4ce5-9294-c2afb80cbd51",
+      "content": "AI notes auto-generated for event meeting on 2025-09-12: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "15492862-2899-4a72-9359-111286fecb6d",
+      "meetingId": "1c0f05d4-7dc1-4ca0-888e-a65ce87e7150",
+      "content": "AI notes auto-generated for event meeting on 2025-09-19: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "fec4b524-ba86-4815-874d-b417573272a7",
+      "meetingId": "adc4cede-6da6-4920-98ac-907ba5b2d0ff",
+      "content": "AI notes auto-generated for event meeting on 2025-09-26: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "a6283df5-b8ae-4090-a779-ff73e2562f60",
+      "meetingId": "2a4a0229-bd87-4135-a2c9-ede46e048822",
+      "content": "AI notes auto-generated for event meeting on 2025-10-03: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c15cc57c-3516-4f9a-a2fc-5610abc2dcaa",
+      "meetingId": "23e2fdf2-7438-4583-9a70-45fff4c4adec",
+      "content": "AI notes auto-generated for event meeting on 2025-10-10: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "7e71638b-f6ca-4219-9fe5-7ab54c1560df",
+      "meetingId": "94d98e96-fa50-443c-a73b-364c96c275a2",
+      "content": "AI notes auto-generated for event meeting on 2025-10-17: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "3d84da05-74ed-4bf9-ac2d-ce64bd4a8df2",
+      "meetingId": "46c42df0-b9b0-4f46-9fea-bc41536d3de5",
+      "content": "AI notes auto-generated for event meeting on 2025-10-24: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f6313ae5-5db6-4649-bb99-6154e203fa0e",
+      "meetingId": "96021e79-68b9-412e-9e20-2bc69a2866d3",
+      "content": "AI notes auto-generated for event meeting on 2025-10-31: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "70537b7a-b7b4-4a96-80fa-5dd5c10d4c8a",
+      "meetingId": "070ac2e1-b4cc-46ff-87e6-b20df2691bee",
+      "content": "AI notes auto-generated for event meeting on 2025-11-07: concise updates, decisions captured.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    }
+  ],
+  "takeaways": [
+    {
+      "id": "37f591bc-91a3-43f2-9921-c0be7bee959b",
+      "meetingId": "ca322952-1a69-4860-a9a9-15db31979cae",
+      "content": "Primary takeaway: unblock Windows Installer UX within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "e21b89db-8c96-41ac-b981-645a2d2e0da2",
+      "meetingId": "0ba34ea9-ca3e-4888-9214-1bcba4efb071",
+      "content": "Primary takeaway: unblock Crash on Win11 23H2 within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "61edd00c-42e3-4af0-b32b-7219017fb4cf",
+      "meetingId": "6865b6a5-2acb-40bd-8932-d5f5a54823c0",
+      "content": "Primary takeaway: unblock Enterprise onboarding feedback within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "2b47bf26-d60b-4a8f-9d8b-101c2965d308",
+      "meetingId": "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc",
+      "content": "Primary takeaway: unblock Security review Q&A within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "3cde75cf-c20d-43e3-8cef-2c87153baf81",
+      "meetingId": "1156476a-ad34-4fd2-8d72-7f0878b94fd0",
+      "content": "Primary takeaway: unblock The Foundry Venue walkthrough within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "983eba14-9433-4564-9fb4-86d9f273f82c",
+      "meetingId": "aee1abcc-8232-45db-a699-93712bf65707",
+      "content": "Primary takeaway: unblock Catering Menu Tasting within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5c338062-e2a5-4a0a-919e-03f9fa29b604",
+      "meetingId": "bba71ffb-2bb7-4162-8568-1b950243da69",
+      "content": "Primary takeaway: unblock Landing Page Review within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "e96c9f44-c4a1-4036-95b9-0658ec65f0ca",
+      "meetingId": "0f337940-8656-4d93-ae31-0854ca6025c4",
+      "content": "Primary takeaway: unblock New onboarding flow within 1 week.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "acc53e79-e000-4c10-a2f9-158b93a22614",
+      "meetingId": "e6f64248-59d6-48bf-8c7a-d1bbfef0022f",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "59c5c486-1c8a-434a-90e8-517636c8c790",
+      "meetingId": "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "eeda4fee-b7dd-48b1-abba-3f00eaeebe73",
+      "meetingId": "9b918197-5314-4958-905b-f9024633e993",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "faa50fd8-1473-42bc-a6a2-ce6f41fa810b",
+      "meetingId": "621a5878-4afc-4fb3-b335-0b7af29d9265",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "10873525-7bae-4d84-8a06-92bc1f030c78",
+      "meetingId": "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f100e347-5907-461c-bbff-86da167a3f6d",
+      "meetingId": "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "428df905-a8a2-4cb8-aa78-9d9e143e2b8e",
+      "meetingId": "23513f76-bac9-46a9-9cf2-2534c276c5c3",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d832d30a-ec71-4f40-b44d-5afd9f81ec52",
+      "meetingId": "17cf3f94-c061-4306-89f2-c06143dfa589",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d5739beb-7414-49e8-af1f-0a0ba5b99c45",
+      "meetingId": "9646ff75-5813-407e-8c0a-dad2981891a8",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "4ab6135b-0eca-4110-bd9a-b187df9134a0",
+      "meetingId": "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "b1f3397e-b44c-4e3c-ad42-1cf51abf1e94",
+      "meetingId": "bfbd291c-b1af-4374-87a5-0b07a1d45cd3",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d264f59d-3dcb-4a4b-ad5c-47e912ee856c",
+      "meetingId": "a4ca3a67-cd47-4385-ace0-46ba90b25af5",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "0b420909-e9e1-46d0-b98b-9c4fc92286ff",
+      "meetingId": "d9d7aa63-2418-4b08-b9c3-aff049feb5a6",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d47891da-9248-46fe-b2a7-4f5724aea897",
+      "meetingId": "235b3e04-59ea-495c-9862-5d16e1d4273b",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "cea5c30b-53ba-4e99-b7da-174afeef7cd0",
+      "meetingId": "2cc814ca-c0ae-4ab8-9e32-45507a84ae99",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "02df3083-15ad-4ba9-9dba-c81390d791e7",
+      "meetingId": "c6ade6e4-2de3-412e-ae04-c7f05aa2979a",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "300eb9e2-2240-42b1-84d3-9e06896755f0",
+      "meetingId": "7fe776fe-915b-43ac-a0ab-2ddac11fbff6",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d7ae5e6e-d631-4673-87b9-ba31235376e4",
+      "meetingId": "d91cf08d-5086-4866-834f-da77898c101e",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "28c189e4-c3dc-47d0-9515-b5caab9e29d8",
+      "meetingId": "d19467be-a49c-4534-9a4c-55f25b5962f2",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ea356234-780d-417d-81b2-91787d68d797",
+      "meetingId": "fc6018f7-8515-4351-ba93-e0e90013adde",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "718b7342-219d-4dc5-bce7-249bfaddf31a",
+      "meetingId": "a81db787-9913-4a36-8158-00f82f52652f",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f2479480-ff3a-4e32-bc28-078e69bc041d",
+      "meetingId": "9d713e0f-fbd0-4f11-ae89-8be86950d5e9",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "fb26273b-5df2-40af-a545-06fb5e1354ec",
+      "meetingId": "d0319a6f-5e64-4caf-a474-6248a5f65eb6",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5739d741-b032-41dd-ad51-a28a89b901bd",
+      "meetingId": "b1f387ee-7b10-41fb-8f02-e7b6dba4c669",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "7a0fc353-f965-43ef-950f-dca39734810e",
+      "meetingId": "a7b4705a-b190-498f-b151-1bd157f5c288",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f1bb41f5-0488-44d7-9984-0a761c117591",
+      "meetingId": "b15e1f16-0d49-40b9-b882-588b32a3a507",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "09a13bca-4728-41ae-a83a-30f9f74f048e",
+      "meetingId": "880bbde0-5969-40d1-9168-349b1b376cde",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d105816d-d4db-4014-a997-be4596c6b8a8",
+      "meetingId": "883a31e2-cfae-48ff-82a8-a67ee51ce4d8",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d2193840-e568-4d81-971a-63edbcbf476d",
+      "meetingId": "d7532bc9-3196-490d-9902-d91d55ad1fbd",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "303243a2-8d26-4184-b7c4-d9d250bf097c",
+      "meetingId": "8a5408d9-521e-4b95-acab-6f7dd9c69cf6",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "e97a9d19-b773-4051-bbc6-8f4408d5c956",
+      "meetingId": "6d7d2e22-2f91-4bb2-aed3-8d64766b0783",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "396e0a10-2cc9-4523-a979-594de907aa59",
+      "meetingId": "a4dc30e5-301f-4637-a540-3003c0edaf9f",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "e95c363a-526d-4fbb-a49a-5a780486d24c",
+      "meetingId": "d08854a5-dac7-4c0a-8e61-7928358f8e85",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "61ece665-6d86-4e37-94b2-5a91132006e1",
+      "meetingId": "a0a7845f-7cae-4d6e-8ab9-1c472143755b",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "73895929-f9b2-43c4-9fb6-847d02bc5d3f",
+      "meetingId": "f7f683d8-840c-40f6-8957-2e77b8e3cb8c",
+      "content": "Team cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "680373e6-5129-4988-9db0-adad6feaef0d",
+      "meetingId": "b1912891-f44e-481e-bf47-6c289e1ca0b4",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9fe5ef6f-955f-4e89-b2ec-93a219c19f4e",
+      "meetingId": "3c7f9a24-fdbb-495f-9932-1534b141ea71",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f29641dc-853b-47e9-af1e-e21efbcff754",
+      "meetingId": "14d8ffec-3aa8-4447-a4d1-dc0f311bf848",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "525f3e1b-eefb-4082-bbe4-e3c7c55d3b34",
+      "meetingId": "120e36ea-e578-491c-ab31-64481f47ed4c",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "941238a7-4ec5-4f3e-8ae7-a3fdd3f7d1f7",
+      "meetingId": "c5466d15-2631-4119-aff1-36a44fb7b850",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1f843177-a91d-4406-8446-342ac0fa1d4c",
+      "meetingId": "d3454b78-63f3-4286-b5c1-6081180c9147",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1e8d29de-7e7c-4673-a90a-43bf60dc17cd",
+      "meetingId": "71f15b38-643d-4908-9588-c97cef17d655",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d09c9079-03e6-4dbe-8a8e-8fe998dbe554",
+      "meetingId": "4e8cd139-77da-4099-bc9a-5fd29d5c6750",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "12527db8-22fa-49ef-9e6a-680fd5842180",
+      "meetingId": "669484c6-5b0f-466f-b57a-40a4a33e5d4c",
+      "content": "Windows cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f339b115-81a6-41b4-be4e-2cc36e799c30",
+      "meetingId": "c79a164b-a984-4ce5-9294-c2afb80cbd51",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "af660595-d10f-489c-adfb-d15d75caea94",
+      "meetingId": "1c0f05d4-7dc1-4ca0-888e-a65ce87e7150",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "db0f8a05-55ee-41ef-bdda-7d7f4732726e",
+      "meetingId": "adc4cede-6da6-4920-98ac-907ba5b2d0ff",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "57028e48-1992-438c-a3d3-0e438dc84073",
+      "meetingId": "2a4a0229-bd87-4135-a2c9-ede46e048822",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "eadfe71f-e4e0-4f09-b128-cd506b55eea2",
+      "meetingId": "23e2fdf2-7438-4583-9a70-45fff4c4adec",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "00f4322d-9e14-491f-b0e3-678fa72b3ed5",
+      "meetingId": "94d98e96-fa50-443c-a73b-364c96c275a2",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "6b7fd79a-5169-49a8-9b2e-34bb0a3fad3f",
+      "meetingId": "46c42df0-b9b0-4f46-9fea-bc41536d3de5",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "87ea2425-7859-406e-9d19-839fa3730959",
+      "meetingId": "96021e79-68b9-412e-9e20-2bc69a2866d3",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "81cc541d-7c86-4735-8ac4-c659ffbd56e9",
+      "meetingId": "070ac2e1-b4cc-46ff-87e6-b20df2691bee",
+      "content": "Event cadence steady; minor risks monitored.",
+      "createdAt": "2025-11-09T13:00:00+00:00"
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "7afcf35a-3084-480f-934b-20f6fba23f13",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "ca322952-1a69-4860-a9a9-15db31979cae",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "faa4637c-7bd5-4548-a2ab-36d8a35392a6",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "ca322952-1a69-4860-a9a9-15db31979cae",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "6351ce65-58e3-418c-838f-61190857556b",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "0ba34ea9-ca3e-4888-9214-1bcba4efb071",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "7e5591a1-a441-4f5c-b2e6-3d905da28dd1",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "0ba34ea9-ca3e-4888-9214-1bcba4efb071",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "461dce0d-5b0d-44bc-86cf-f147a580894e",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "6865b6a5-2acb-40bd-8932-d5f5a54823c0",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "e8010335-cd26-43fe-bcf7-ce1e08434b17",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "6865b6a5-2acb-40bd-8932-d5f5a54823c0",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f1683aad-7221-4d02-8ba9-f7cbc42ff3a5",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "836535be-3147-4db6-8389-d5c6b785ec91",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "1c98aa77-f62d-4e5d-97c5-90b1b5b6f1bc",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "26e13ce9-0ef8-43b6-8704-9346eec11e0c",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "1156476a-ad34-4fd2-8d72-7f0878b94fd0",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "2ea595ae-7d2f-41a7-b211-38f9d975c041",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "1156476a-ad34-4fd2-8d72-7f0878b94fd0",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "6428111d-aabd-4ab2-932d-12f7596d6d2b",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "aee1abcc-8232-45db-a699-93712bf65707",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "856ea10b-a3f7-466b-95f0-39d3dbd5fea9",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "aee1abcc-8232-45db-a699-93712bf65707",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c6a0bf11-e1ad-426d-b970-08b4682efc20",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "bba71ffb-2bb7-4162-8568-1b950243da69",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "b6222431-1c24-4932-95c3-3dc667c59470",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "bba71ffb-2bb7-4162-8568-1b950243da69",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "42ea4af9-9a81-4806-a4f5-8471e6c2d876",
+      "item": "Share summary and decisions in #design",
+      "meetingId": "0f337940-8656-4d93-ae31-0854ca6025c4",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-12T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "65a8435b-d0ab-4efa-b304-8bed7d903d0a",
+      "item": "Create Jira tasks for next steps",
+      "meetingId": "0f337940-8656-4d93-ae31-0854ca6025c4",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "8663ff48-5560-4a08-825e-56c8c3548d18",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "584b2e54-ca23-428d-b793-6f452b617a8b",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "e6f64248-59d6-48bf-8c7a-d1bbfef0022f",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "6b9b2b43-a64e-4945-a423-5273cadb6206",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "0e2be148-30b4-4ad3-aeb5-b2ac5d75f50f",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d2629350-d63f-444c-9583-1f35f0b627b2",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "9b918197-5314-4958-905b-f9024633e993",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "fbf15251-a932-48c3-be3d-12372c67e296",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "621a5878-4afc-4fb3-b335-0b7af29d9265",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "42e13699-80d1-4269-af56-0fa4949e49fb",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "d2975bfa-bd08-4b7a-9d57-b9a0166fa0c2",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9f33ff11-1dc6-4979-bfab-6aef3a673503",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "e5ec3a8c-5d7d-4ac1-ab73-4ef846f9c327",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9d1c2f72-1751-4c98-ad6e-d17b422f2008",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "23513f76-bac9-46a9-9cf2-2534c276c5c3",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9fbfa6e5-07f6-4a1f-892a-12888a8535b3",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "17cf3f94-c061-4306-89f2-c06143dfa589",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "41d4ec1e-21e0-4a3d-8d6d-f8b1378a3239",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "9646ff75-5813-407e-8c0a-dad2981891a8",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ca5d184c-2048-46b5-a152-f7825c7104be",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "7f4ad8cc-fd66-4cec-bdac-6cdf04eac1c3",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5521aaea-4454-4e11-8e89-26ef366e3301",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "bfbd291c-b1af-4374-87a5-0b07a1d45cd3",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "df7a16d9-34da-4f44-b99b-50938a8c05d5",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "a4ca3a67-cd47-4385-ace0-46ba90b25af5",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "5f8c8829-2e14-4279-bc81-a8f35888d66a",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "d9d7aa63-2418-4b08-b9c3-aff049feb5a6",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1caaf209-4c6b-430f-b12c-57fd8bc3b7b1",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "235b3e04-59ea-495c-9862-5d16e1d4273b",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9fe6a272-be10-4967-a4ba-c71d86249fd7",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "2cc814ca-c0ae-4ab8-9e32-45507a84ae99",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c4eb7911-856f-4c73-a850-d23f0176611e",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "c6ade6e4-2de3-412e-ae04-c7f05aa2979a",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "1b785429-71f7-4981-a910-aa66ed2b7c8e",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "7fe776fe-915b-43ac-a0ab-2ddac11fbff6",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "7890116b-da34-45e8-9e76-21548ce132ca",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "d91cf08d-5086-4866-834f-da77898c101e",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "29253f63-6f5c-4c2f-be4e-dce3270d9c59",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "d19467be-a49c-4534-9a4c-55f25b5962f2",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "fda512a4-61d3-40cf-b2aa-b13bf9764ecf",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "fc6018f7-8515-4351-ba93-e0e90013adde",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "02936d67-b431-44cc-ae3d-5ff0918cf03d",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "a81db787-9913-4a36-8158-00f82f52652f",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "973cff76-4e47-4459-be1e-23b5e103cfe4",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "9d713e0f-fbd0-4f11-ae89-8be86950d5e9",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "a78f5308-e203-46fc-a8bb-bfab9ed69d0c",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "d0319a6f-5e64-4caf-a474-6248a5f65eb6",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "dc17c6d3-9a01-4525-85b6-df985d33c0bf",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "b1f387ee-7b10-41fb-8f02-e7b6dba4c669",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "00670999-49c1-4ad2-acef-cb39de859790",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "a7b4705a-b190-498f-b151-1bd157f5c288",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "0d15fc8d-19fd-46de-b2d6-7a512c8b9e3e",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "b15e1f16-0d49-40b9-b882-588b32a3a507",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "9175d309-3d5e-4278-b832-65693e1ec842",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "880bbde0-5969-40d1-9168-349b1b376cde",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "889c8bf8-c84c-41eb-b262-50f4b18efc5c",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "883a31e2-cfae-48ff-82a8-a67ee51ce4d8",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "66487927-83be-474a-b20c-27904bed04f9",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "d7532bc9-3196-490d-9902-d91d55ad1fbd",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "a6c748ac-4fe6-47da-92e6-24c7edde6a7b",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "8a5408d9-521e-4b95-acab-6f7dd9c69cf6",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "61534394-6245-4852-a59b-4575c872f8af",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "6d7d2e22-2f91-4bb2-aed3-8d64766b0783",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "dbbc93ef-0d4b-415d-9955-90a44894d4be",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "a4dc30e5-301f-4637-a540-3003c0edaf9f",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "2fa83eb7-6869-467c-b798-8e83d92b52e3",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "d08854a5-dac7-4c0a-8e61-7928358f8e85",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "completed",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "2125b40a-8be9-44c4-8df5-577e60a67d1b",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "a0a7845f-7cae-4d6e-8ab9-1c472143755b",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "dc6f8056-f728-46c1-ae5a-dad3b372df92",
+      "item": "Follow up on designer capacity planning",
+      "meetingId": "f7f683d8-840c-40f6-8957-2e77b8e3cb8c",
+      "objectiveId": "edffc1ea-8a84-4cd9-87f4-b4578a7a2b51",
+      "status": "in_progress",
+      "assignee": "f7fc4c20-7a05-41f1-8a67-b8b2710f2592",
+      "dueDate": "2025-11-16T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "f28a76a5-4c4d-4347-9b4d-8ef81983c097",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "b1912891-f44e-481e-bf47-6c289e1ca0b4",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "b514aea9-6147-441f-b440-0758034ea6a1",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "3c7f9a24-fdbb-495f-9932-1534b141ea71",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "4f5d0483-e00a-4cdf-8aaa-998d17dba9e6",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "14d8ffec-3aa8-4447-a4d1-dc0f311bf848",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "81e02b7b-57b3-4dc9-93b2-1a3dad575061",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "120e36ea-e578-491c-ab31-64481f47ed4c",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "in_progress",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "061bea5d-42e0-4cb1-889c-84729c14334a",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "c5466d15-2631-4119-aff1-36a44fb7b850",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "in_progress",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "af52e3d0-5988-42bd-8c7b-27a3bde03be9",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "d3454b78-63f3-4286-b5c1-6081180c9147",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "7295f80c-6731-48c9-8d5b-c27c02da3081",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "71f15b38-643d-4908-9588-c97cef17d655",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "568163e4-eb65-4b7c-9f71-de404b4d6388",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "4e8cd139-77da-4099-bc9a-5fd29d5c6750",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "in_progress",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "d7dafec8-8288-40a7-bd53-889d30cf3e6c",
+      "item": "Close parity gap: Preferences dialog",
+      "meetingId": "669484c6-5b0f-466f-b57a-40a4a33e5d4c",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "completed",
+      "assignee": "abb27cc4-157f-48cf-9b55-7fd5d0049e09",
+      "dueDate": "2025-11-19T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "b8b71fd6-14d6-4ee1-a07f-45788d07d03f",
+      "item": "Prepare demo build for next sync",
+      "meetingId": "f4cac488-72ca-439b-b02f-28e0b71f3b53",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "scheduled",
+      "assignee": "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "af699f48-040a-4df4-b163-00be012ad306",
+      "item": "Prepare demo build for next sync",
+      "meetingId": "25a6a044-f515-4d71-9c84-ff20cd148a25",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "scheduled",
+      "assignee": "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "46b805bc-fada-4b17-9d1c-b085bbb1acb8",
+      "item": "Prepare demo build for next sync",
+      "meetingId": "6303a64b-3ba5-457c-8008-05a54d4ff414",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "scheduled",
+      "assignee": "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "0e873a83-761c-491b-b4d1-a5d9096efea1",
+      "item": "Prepare demo build for next sync",
+      "meetingId": "b4198e57-47c6-45f4-bc63-806c6bcd0502",
+      "objectiveId": "3791b275-e6dc-483e-88e2-dcd96a60345f",
+      "status": "scheduled",
+      "assignee": "5ad9ae1f-3f89-426a-9abd-c480e47c34fc",
+      "dueDate": "2025-11-14T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ce521666-dbda-42e5-9891-0ced53d48ed5",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "c79a164b-a984-4ce5-9294-c2afb80cbd51",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "completed",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "c5d96581-c8aa-474d-bbf8-10df621caf3f",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "1c0f05d4-7dc1-4ca0-888e-a65ce87e7150",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "completed",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "78d7dcae-412b-4417-a10f-68798dc44c18",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "adc4cede-6da6-4920-98ac-907ba5b2d0ff",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "ed7c2d42-3b16-4378-8535-c24159772738",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "2a4a0229-bd87-4135-a2c9-ede46e048822",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "dc5b1853-3a6c-437d-82d0-0b2241f1b2ee",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "23e2fdf2-7438-4583-9a70-45fff4c4adec",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "eec28ade-3487-4dc1-b8e2-cd158ed22403",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "94d98e96-fa50-443c-a73b-364c96c275a2",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "completed",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "14a559e7-495b-4451-a806-04a15e63e00f",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "46c42df0-b9b0-4f46-9fea-bc41536d3de5",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "b20f5ba3-12c9-4812-8d14-216f13a8e135",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "96021e79-68b9-412e-9e20-2bc69a2866d3",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "in_progress",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    },
+    {
+      "id": "dbd36c7a-2ac7-4034-abe7-e6f151ac44b1",
+      "item": "Finalize invite list tiers (VIP, General)",
+      "meetingId": "070ac2e1-b4cc-46ff-87e6-b20df2691bee",
+      "objectiveId": "45b2cf21-36ad-4db4-b73a-7925194f6c40",
+      "status": "completed",
+      "assignee": "092d304f-6798-453e-a392-827d633b49c0",
+      "dueDate": "2025-11-15T13:00:00+00:00",
+      "createdAt": "2025-11-09T13:00:00+00:00",
+      "updatedAt": "2025-11-09T13:00:00+00:00"
+    }
+  ],
+  "meta": {
+    "generatedAt": "2025-11-09T13:00:00+00:00",
+    "timezone": "Europe/London",
+    "note": "Mock dataset for a design lead using an AI meeting OS (Granola-based). Covers ~2 months past and 1 month future."
+  }
+}

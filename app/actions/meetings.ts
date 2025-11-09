@@ -1,16 +1,23 @@
 "use server";
 
 import { meetingStore } from "@/lib/stores";
-import type { Meeting } from "@/lib/types/meeting";
+import type { Meeting, Person } from "@/lib/types/meeting";
+
+// Serialized person type for client (Dates as ISO strings)
+export type SerializedPerson = Omit<Person, "createdAt" | "updatedAt"> & {
+  createdAt: string;
+  updatedAt: string;
+};
 
 // Serialized meeting type for client (Dates as ISO strings)
 export type SerializedMeeting = Omit<
   Meeting,
-  "startTime" | "createdAt" | "updatedAt" | "agenda" | "notes" | "takeaways"
+  "startTime" | "createdAt" | "updatedAt" | "agenda" | "notes" | "takeaways" | "people"
 > & {
   startTime: string;
   createdAt: string;
   updatedAt: string;
+  people: SerializedPerson[];
 };
 
 // Helper to convert Date or string to ISO string

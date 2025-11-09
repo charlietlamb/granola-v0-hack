@@ -160,7 +160,7 @@ export default function CalendarList() {
                   >
                     {/* Avatar */}
                     <div
-                      className={`flex-shrink-0 w-10 h-10 rounded-full ${getPersonColor(
+                      className={`shrink-0 w-10 h-10 rounded-full ${getPersonColor(
                         index,
                       )} flex items-center justify-center text-white text-sm font-medium`}
                     >
@@ -197,7 +197,7 @@ export default function CalendarList() {
                     </div>
 
                     {/* Time - Right aligned */}
-                    <div className="flex-shrink-0 text-xs text-muted-foreground">
+                    <div className="shrink-0 text-xs text-muted-foreground">
                       {format(startTime, "dd/MM HH:mm")}
                     </div>
                   </div>
